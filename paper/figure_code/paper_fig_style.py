@@ -3,7 +3,8 @@ layout, text width 153 mm). Every figure is created at its true print size so
 a 7 pt tick label is 7 pt on the page; draft.tex includes the PDFs at natural
 size (no width= scaling). Fonts: ticks 7 pt, axis labels 8 pt, panel titles
 8.5 pt, legends 7 pt. Colours: Okabe-Ito, one colour per evidence source, the
-same in every figure."""
+same in every figure (MACE-MP-0 pink, measured blue, published DFT green,
+phonon model orange, outside the stated range grey)."""
 from pathlib import Path
 import matplotlib
 matplotlib.use("Agg")
@@ -22,7 +23,12 @@ C = {
     "bte": "#E69F00",      # phonon Boltzmann transport model run in this project
     "out": "#8C8C8C",      # outside the declared range
 }
-TEMP = {500.0: "#0072B2", 600.0: "#E69F00", 700.0: "#D55E00"}
+# MACE-MP-0 runs at several temperatures (figure 2): one hue per temperature from
+# a set that shares no colour with the evidence sources above, one marker per
+# temperature so the figure also reads in greyscale; SiGeSn has its own hue.
+TEMP = {500.0: "#332288", 600.0: "#CC6677", 700.0: "#882255"}
+TMARK = {500.0: "o", 600.0: "s", 700.0: "^"}
+SIGESN, SIGESN_MARK = "#999933", "D"
 
 
 def apply_style():

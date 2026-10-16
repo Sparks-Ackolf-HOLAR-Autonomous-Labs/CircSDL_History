@@ -9,14 +9,14 @@ fig1_record       p4_tskg/T1_md/out/gesn_x012_T500_s1.json (first Sn-V pairing e
 fig2_md           p4_tskg/T1_md/out/*.json (series), p4_tskg/T1_md/t1_result.json
 fig3_energies     p4_tskg/T1_md/o1_result.json, p4_tskg/T1_md/out/o1_x012_rep4.json, analysis/record_summary.json
 fig4_history      analysis/record_summary.json (segregation onsets), p4_tskg/T3_insitu/series.json (550 C series)
+fig5_film         second_system/gesn_transfer_check.json, analysis/concepcion2024_fig2g_read.json
 figS1_pairs       p4_tskg/T1_md/out/gesn_x012_T500_s*.json, analysis/record_summary.json
-figS2_film        second_system/gesn_transfer_check.json
 """
 import json
 from pathlib import Path
 import numpy as np
 from matplotlib.patches import FancyBboxPatch
-from paper_fig_style import apply_style, save, plt, FULL, MT, HERE, C, TEMP, GREY, INK
+from paper_fig_style import apply_style, save, plt, FULL, MT, HERE, C, TEMP, TMARK, SIGESN, SIGESN_MARK, GREY, INK
 
 apply_style()
 T1 = MT / "p4_tskg" / "T1_md"
@@ -44,7 +44,7 @@ def fig1():
     ax = fig.add_axes([0, 0, 1, 1])
     ax.set_xlim(0, W); ax.set_ylim(0, H); ax.axis("off")
     ax.text(0.05, 2.47, "(a) one event on the material clock", fontsize=8.5, va="center")
-    ax.text(3.1, 2.47, "(b) the same stage on the campaign clock", fontsize=8.5, va="center")
+    ax.text(3.05, 2.47, "(b) the same stage on the campaign clock", fontsize=8.5, va="center")
 
     def bx(x, y, w, h, text, fc="white", fs=6.5):
         ax.add_patch(FancyBboxPatch((x - w / 2, y - h / 2), w, h, boxstyle="round,pad=0.0,rounding_size=0.05",
@@ -63,62 +63,88 @@ def fig1():
     ax.annotate("", xy=(1.66, 0.86), xytext=(1.28, 0.86), arrowprops=dict(arrowstyle="-|>", lw=0.8, color=INK))
     ax.text(1.47, 1.02, "balanced", ha="center", fontsize=6.0, color=GREY)
 
-    labels = {126: "rules\nregistered", 127: "placement\nchanged", 143: "raw outputs\nhashed",
-              144: "registered\nreading", 145: "range limited\nto 500 K\nand below"}
-    pos = {126: (3.55, 1.55), 127: (4.03, 0.72), 143: (4.51, 1.55), 144: (4.99, 0.72), 145: (5.47, 1.55)}
-    bw, bh = 0.84, 0.5
-    for s_, (x, y) in pos.items():
-        bx(x, y, bw, bh, labels[s_], fc="#FDEBD9" if s_ == 145 else "#E8F1F8", fs=6.3)
-        t = led[s_]["time"]
-        ax.text(x, y + 0.36 if y > 1 else y - 0.36, t[8:10] + " Oct " + t[11:16], ha="center", va="center",
-                fontsize=6.0, color=GREY)
-    for s0, s1 in [(126, 127), (127, 143), (126, 143), (143, 144), (144, 145), (143, 145)]:
-        (x0, y0), (x1, y1) = pos[s0], pos[s1]
-        if y0 == y1:
-            p0, p1 = (x0 + bw / 2, y0), (x1 - bw / 2, y1)
-        elif y1 < y0:
-            p0, p1 = (x0 + 0.15, y0 - bh / 2), (x1 - 0.15, y1 + bh / 2)
-        else:
-            p0, p1 = (x0 + 0.15, y0 + bh / 2), (x1 - 0.15, y1 - bh / 2)
-        ax.annotate("", xy=p1, xytext=p0, arrowprops=dict(arrowstyle="-|>", lw=0.7, color=INK, shrinkA=0, shrinkB=0))
-    ax.text(4.51, 0.14, "UTC time of each committed entry; an arrow means\nthe later entry rests on the earlier one",
-            ha="center", va="center", fontsize=6.0, color=GREY)
+    # (b) the materials event behind each campaign entry, in time order top to bottom;
+    # the chain 126 -> 127 -> 143 -> 144 -> 145 runs down the column, and the two
+    # further inputs (126 -> 143, 143 -> 145) run as arcs on the right, so no arrows cross.
+    labels = {126: "plan fixed before any run: GeSn at\n500, 600 and 700 K, SiGeSn at 600 K",
+              127: "three runs moved to other GPU nodes;\nanneal plan unchanged",
+              143: "seven 0.5 ns anneals finished; outputs\nfingerprinted before analysis",
+              144: "600 K and 700 K runs lose crystal\norder (up to 26 empty sites)",
+              145: "MD of GeSn limited to\n500 K and below"}
+    order = [126, 127, 143, 144, 145]
+    xc, bw, bh = 4.80, 1.84, 0.34
+    ys = {s_: 2.10 - i * 0.455 for i, s_ in enumerate(order)}
+    months = {"10": "Oct"}
+    for s_ in order:
+        y = ys[s_]
+        bx(xc, y, bw, bh, labels[s_], fc="#FDEBD9" if s_ == 145 else "#E8F1F8", fs=6.3)
+        t = led[s_]["time"]  # e.g. 2026-10-09T17:59:10Z
+        ax.text(3.80, y, f"{int(t[8:10])} {months[t[5:7]]} {t[0:4]}\n{t[11:16]} UTC", ha="right", va="center",
+                fontsize=6.0, color=GREY, linespacing=1.15)
+    for s0, s1 in zip(order[:-1], order[1:]):
+        ax.annotate("", xy=(xc, ys[s1] + bh / 2), xytext=(xc, ys[s0] - bh / 2),
+                    arrowprops=dict(arrowstyle="-|>", lw=0.7, color=INK, shrinkA=0, shrinkB=0))
+    xr = xc + bw / 2
+    for s0, s1, dy0, dy1 in ((126, 143, 0.0, 0.07), (143, 145, -0.07, 0.0)):
+        ax.annotate("", xy=(xr, ys[s1] + dy1), xytext=(xr, ys[s0] + dy0),
+                    arrowprops=dict(arrowstyle="-|>", lw=0.7, color=INK, shrinkA=0, shrinkB=0,
+                                    connectionstyle="arc3,rad=-0.35"))
     save(fig, "fig1_record")
 
 
 # ------------------------------------------------------------------ Figure 2
 def fig2():
-    fig, (a, b) = plt.subplots(1, 2, figsize=(FULL, 2.35))
-    ref = None
+    """One hue and one marker per temperature, SiGeSn its own hue and marker; seed 1
+    solid, seed 2 dotted. In (b) runs that sit on the same whole number of empty sites
+    are drawn with a small vertical offset (stated in the caption) so each stays visible.
+    Loss-of-order times quoted in the text (24 ps, 600 K seed 1; 484 ps, SiGeSn) are
+    read from t1_result.json and marked in (a)."""
+    fig, (a, b) = plt.subplots(1, 2, figsize=(FULL, 2.75))
     runs = RES["runs"]
-    for run in sorted(runs):
+    KB = 8.617333e-5
+    e500 = np.mean([p["epot_eV_atom"] for p in json.load(open(T1 / "out" / "gesn_x012_T500_s1.json"))["series"][:5]])
+    offset = {"gesn_x012_T500_s1": -0.35, "gesn_x012_T500_s2": 0.0, "gesn_x012_T600_s1": 0.35,
+              "gesn_x012_T600_s2": -0.35, "sigesn_si010_x012_T600_s1": 0.35}
+    order = ["gesn_x012_T500_s1", "gesn_x012_T500_s2", "gesn_x012_T600_s1", "gesn_x012_T600_s2",
+             "gesn_x012_T700_s1", "gesn_x012_T700_s2", "sigesn_si010_x012_T600_s1"]
+    handles = []
+    for k, run in enumerate(order):
         d = json.load(open(T1 / "out" / f"{run}.json"))
         s = d["series"]
         t = np.array([p["t_ps"] for p in s])
         e = np.array([p["epot_eV_atom"] for p in s])
-        nv = np.array([p["n_vac"] for p in s])
+        nv = np.array([p["n_vac"] for p in s], dtype=float)
         T = runs[run]["T"]
         si = runs[run]["si"] > 0
+        col, mk = (SIGESN, SIGESN_MARK) if si else (TEMP[T], TMARK[T])
         ls = "--" if si else ("-" if run.endswith("s1") else ":")
-        col = TEMP[T]
         lab = (f"SiGeSn {T:.0f} K" if si else f"GeSn {T:.0f} K, seed {run[-1]}")
-        KB = 8.617333e-5
-        if si:
-            base = e[:5].mean()
-            exc = (e - base) * 1000
-        else:
-            e500 = np.mean([p["epot_eV_atom"] for p in json.load(open(T1 / "out" / "gesn_x012_T500_s1.json"))["series"][:5]])
-            exc = (e - e500 - 1.5 * KB * (T - 500.0)) * 1000
-        a.plot(t, exc, ls=ls, color=col, lw=1.0, label=lab)
-        b.plot(t, nv, ls=ls, color=col, lw=1.0, label=lab)
+        exc = (e - e[:5].mean()) * 1000 if si else (e - e500 - 1.5 * KB * (T - 500.0)) * 1000
+        kw = dict(ls=ls, color=col, lw=0.9, marker=mk, ms=3.2, mfc="white" if ls == ":" else col, mew=0.7,
+                  markevery=(3 * k, 25))
+        h, = a.plot(t, exc, label=lab, **kw)
+        b.plot(t, nv + offset.get(run, 0.0), **kw)
+        handles.append(h)
+        lost = runs[run]["order"]["order_lost_at_ps"]
+        if run in ("gesn_x012_T600_s1", "sigesn_si010_x012_T600_s1") and lost is not None:
+            i = int(np.argmin(np.abs(t - lost)))
+            a.annotate(f"order lost\nat {lost:.0f} ps", xy=(t[i], exc[i]),
+                       xytext=(t[i] + 55, exc[i] - 20) if lost < 100 else (t[i] - 85, 52),
+                       fontsize=6.3, color=col, ha="left" if lost < 100 else "right", va="center",
+                       arrowprops=dict(arrowstyle="-|>", lw=0.6, color=col, shrinkA=1, shrinkB=2))
+    for y, txt in ((1.8, "2"), (3.4, "3"), (7.4, "8"), (9.6, "9"), (26, "26")):
+        b.text(508, y, txt, fontsize=6.3, va="center", ha="left", color=INK)
     a.set_xlabel("MD time (ps)")
     a.set_ylabel("excess potential energy (meV/atom)")
+    a.set_ylim(-15, 125)
     a.set_title("(a) potential energy above the crystal value")
     b.set_xlabel("MD time (ps)")
     b.set_ylabel("empty lattice sites")
-    b.set_ylim(0, 30)
+    b.set_ylim(0, 28)
+    b.set_xlim(-10, 530)
     b.set_title("(b) empty lattice sites (2 vacancies placed)")
-    b.legend(loc="upper center", bbox_to_anchor=(0.5, 0.86), fontsize=6.3, ncol=2, handlelength=2.2, columnspacing=1.0)
+    fig.legend(handles=handles, loc="outside lower center", ncol=4, fontsize=6.5, handlelength=2.6,
+               columnspacing=1.2)
     save(fig, "fig2_md")
 
 
@@ -126,7 +152,7 @@ def fig2():
 def fig3():
     o1 = json.load(open(T1 / "o1_result.json"))
     ea = REC["activation_energy_conflict"]
-    fig, (a, b) = plt.subplots(1, 2, figsize=(FULL, 2.6), gridspec_kw={"width_ratios": [0.8, 1.2]})
+    fig, (a, b) = plt.subplots(1, 2, figsize=(FULL, 3.05), gridspec_kw={"width_ratios": [0.8, 1.2]})
     eb = np.array(o1["E_b_per_sample_eV"])
     rng = np.random.default_rng(0)
     a.scatter(np.zeros_like(eb) + rng.uniform(-0.08, 0.08, eb.size), eb, s=14, color=C["mace"], zorder=3,
@@ -156,21 +182,22 @@ def fig3():
     dft = [r["Ea_eV"] for r in ea["rows"] if r["kind"] == "computed"]
     b.plot([min(dft), max(dft)], [3, 3], color=C["dft"], lw=3, solid_capstyle="butt")
     b.plot([ea["md_500K_observed_hops_eV"]], [4], "x", color=C["out"], ms=6, mew=1.5)
-    b.text(ea["md_500K_observed_hops_eV"] + 0.12, 4, "back-and-forth hops: not a diffusion barrier", va="center",
-           fontsize=6.3, color=GREY)
     b.plot([ea["md_registered_slope_eV"]], [5], "x", color=C["out"], ms=6, mew=1.5)
-    b.text(ea["md_registered_slope_eV"] + 0.12, 5, "order lost: not a hop barrier", va="center", fontsize=6.3, color=GREY)
     b.set_yticks(range(6))
-    b.set_yticklabels([r[0] for r in rows] + ["DFT, Sn$-$vacancy pairs in Ge", "MACE-MP-0 MD, 500 K\n(crystal kept)",
-                                             "MACE-MP-0 MD, 500$-$700 K"], fontsize=6.6)
+    b.set_yticklabels([r[0] for r in rows] + ["DFT, Sn$-$vacancy pairs in Ge",
+                                             "MACE-MP-0 MD, 500 K: crystal kept,\nback-and-forth hops",
+                                             "MACE-MP-0 MD, 500$-$700 K:\ncrystal order lost"], fontsize=6.6)
     b.invert_yaxis()
     b.set_xlim(0, 4.0)
     b.set_xlabel("activation energy (eV)")
     b.set_title("(b) one quantity, six records")
-    b.plot([], [], "o", color=C["lit"], ms=4, label="Ge or GeSn")
-    b.plot([], [], "^", color=C["lit"], ms=4, label="SiGeSn, 4 at.% Si")
-    b.plot([], [], "o", color=C["lit"], mfc="white", ms=4, label="Ge/GeSn quantum wells")
-    b.legend(loc="upper left", fontsize=6.3, handletextpad=0.2, title="measured", title_fontsize=6.3)
+    b.plot([], [], "o", color=C["lit"], ms=4, label="measured, Ge or GeSn")
+    b.plot([], [], "^", color=C["lit"], ms=4, label="measured, SiGeSn (4 at.% Si)")
+    b.plot([], [], "o", color=C["lit"], mfc="white", ms=4, label="measured, Ge/GeSn quantum wells")
+    b.plot([], [], color=C["dft"], lw=3, label="published DFT range")
+    b.plot([], [], "x", color=C["out"], ms=5, mew=1.3, label="MACE-MP-0, not a diffusion barrier")
+    h, l = b.get_legend_handles_labels()
+    fig.legend(h, l, loc="outside lower right", fontsize=6.3, ncol=3, handletextpad=0.3, columnspacing=1.0)
     save(fig, "fig3_energies")
 
 
@@ -189,11 +216,12 @@ def fig4():
         a.errorbar([x], [r["onset_C"]], yerr=[r["unc_C"] or 0], fmt=mk, ms=4.5, capsize=2, lw=0.8,
                    color=C["lit"], mfc="white" if am else C["lit"])
         if not am:
-            txt = hold_txt.get(r["hold_s"], "ramp") + (" (SiGeSn)" if r["si_fraction"] else "")
+            txt = hold_txt.get(r["hold_s"], "ramp")
             a.text(x + 0.8, r["onset_C"], txt, fontsize=6.3, va="center", color=INK)
-    a.plot([], [], "s", color=C["lit"], ms=4, label="epitaxial film (hold time)")
-    a.plot([], [], "o", color=C["lit"], mfc="white", ms=4, label="amorphous film, crystallized")
-    a.legend(loc="upper right", fontsize=6.3)
+    a.plot([], [], "s", color=C["lit"], ms=4, label="epitaxial GeSn (hold time)")
+    a.plot([], [], "^", color=C["lit"], ms=4, label="epitaxial SiGeSn, in-situ ramp")
+    a.plot([], [], "o", color=C["lit"], mfc="white", ms=4, label="amorphous GeSn, crystallized")
+    a.legend(loc="upper right", fontsize=6.3, handletextpad=0.3, borderaxespad=0.1)
     a.set_xlabel("Sn content (at.%)")
     a.set_ylabel("onset of Sn segregation ($^\\circ$C)")
     a.set_xlim(0, 45); a.set_ylim(50, 800)
@@ -214,25 +242,40 @@ def fig4():
 def figS1():
     md = REC["md_500K_events"]
     fig, (a, b) = plt.subplots(1, 2, figsize=(FULL, 2.2))
-    for run, ls in (("gesn_x012_T500_s1", "-"), ("gesn_x012_T500_s2", ":")):
+    """Seed 1 solid, seed 2 dotted (MACE-MP-0 pink, as in every figure); thin lines of
+    the same style mark each seed's time average (record_summary.json), with its value
+    at the right edge; the random-arrangement expectation is a grey dashed line named
+    in the legend, not on the data."""
+    fig, (a, b) = plt.subplots(1, 2, figsize=(FULL, 2.45))
+    dark = "#8E4A74"  # darker shade of the MACE-MP-0 pink for seed 2
+    for run, ls, col in (("gesn_x012_T500_s1", "-", C["mace"]), ("gesn_x012_T500_s2", ":", dark)):
         d = json.load(open(T1 / "out" / f"{run}.json"))
         t = [p["t_ps"] for p in d["series"]]
-        a.plot(t, [p["n_snsn_pairs"] for p in d["series"]], ls=ls, color=C["mace"], lw=1.0, label=f"seed {run[-1]}")
-        b.plot(t, [p["n_snv_pairs"] for p in d["series"]], ls=ls, color=C["mace"], lw=1.0, label=f"seed {run[-1]}")
-    a.axhline(md["snsn_pairs_random_expectation"], color=GREY, ls="--", lw=0.8)
-    a.text(10, md["snsn_pairs_random_expectation"] + 0.4, "random arrangement", fontsize=6.3, color=GREY)
-    b.axhline(md["sn_next_to_vacancy_random_expectation"], color=GREY, ls="--", lw=0.8)
-    b.text(10, md["sn_next_to_vacancy_random_expectation"] + 0.2, "random arrangement", fontsize=6.3, color=GREY)
+        for ax_, key, mkey in ((a, "n_snsn_pairs", "snsn_pairs_time_mean"),
+                               (b, "n_snv_pairs", "sn_next_to_vacancy_time_mean")):
+            ax_.plot(t, [p[key] for p in d["series"]], ls=ls, color=col, lw=0.9, label=f"seed {run[-1]}")
+            m = md[mkey][run]
+            ax_.plot([0, 500], [m, m], ls="-", color=col, lw=1.6, alpha=0.55)
+            dy = 0.7 if (ax_ is a and run.endswith("s2")) else 0.0  # 14.5 sits next to the random 14.3
+            ax_.text(507, m + dy, f"{m:.1f}", fontsize=6.3, color=col, va="center", ha="left")
+    for ax_, key in ((a, "snsn_pairs_random_expectation"), (b, "sn_next_to_vacancy_random_expectation")):
+        r = md[key]
+        ax_.plot([0, 500], [r, r], color=GREY, ls="--", lw=0.8, label="random arrangement")
+        ax_.text(507, r - (0.7 if ax_ is a else 0.0), f"{r:.2f}" if r < 2 else f"{r:.1f}", fontsize=6.3,
+                 color=GREY, va="center", ha="left")
+        ax_.plot([], [], color=INK, lw=1.6, alpha=0.55, label="time average")
+        ax_.set_xlim(-10, 540)
     a.set_xlabel("MD time at 500 K (ps)"); a.set_ylabel("first-neighbour Sn$-$Sn pairs")
     b.set_xlabel("MD time at 500 K (ps)"); b.set_ylabel("Sn atoms next to a vacancy")
     a.set_title("(a) Sn$-$Sn pairs"); b.set_title("(b) Sn$-$vacancy neighbours")
     a.set_ylim(0, 20); b.set_ylim(0, 8.6)
-    a.legend(loc="lower right", fontsize=6.3)
+    h, l = a.get_legend_handles_labels()
+    fig.legend(h, l, loc="outside lower center", ncol=4, fontsize=6.5)
     save(fig, "figS1_pairs")
 
 
-# ------------------------------------------------------------------ Figure S2
-def figS2():
+# ------------------------------------------------------------------ Figure 5 (main text)
+def fig5():
     rows = json.load(open(MT / "second_system" / "gesn_transfer_check.json"))
     fig, a = plt.subplots(figsize=(3.6, 2.4))
     for bnd, x in (("100nm", 100), ("700nm", 700)):
@@ -247,8 +290,8 @@ def figS2():
     a.set_xlim(0, 800); a.set_ylim(0, 7.5)
     a.set_title("Ge$_{0.88}$Sn$_{0.12}$ films, 300 K")
     a.legend(loc="lower right", fontsize=6.3)
-    save(fig, "figS2_film")
+    save(fig, "fig5_film")
 
 
 if __name__ == "__main__":
-    fig1(); fig2(); fig3(); fig4(); figS1(); figS2()
+    fig1(); fig2(); fig3(); fig4(); fig5(); figS1()
