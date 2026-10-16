@@ -1,0 +1,239 @@
+{
+ "registered": {
+  "label": "all GeSn runs, as registered",
+  "per_T": {
+   "500.0": {
+    "runs": 2,
+    "net_sn_hops": 46,
+    "rate_per_s": 46000000000.0,
+    "cancelled_frac": 0.914
+   },
+   "600.0": {
+    "runs": 2,
+    "net_sn_hops": 9128,
+    "rate_per_s": 9128000000000.0,
+    "cancelled_frac": 0.623
+   },
+   "700.0": {
+    "runs": 2,
+    "net_sn_hops": 12138,
+    "rate_per_s": 12138000000000.0,
+    "cancelled_frac": 0.56
+   }
+  },
+  "vibration_check": {
+   "cancelled_frac_by_T": {
+    "500.0": 0.914,
+    "600.0": 0.623,
+    "700.0": 0.56
+   },
+   "flicker_dominated": false
+  },
+  "mode": "arrhenius",
+  "Ea_eV": 0.133,
+  "temperatures": [
+   500.0,
+   600.0,
+   700.0
+  ],
+  "theorists": {
+   "theorist_A_sonnet.json": {
+    "category": "below 1.1 eV",
+    "cat_hit": 1,
+    "value": 0.9,
+    "value_hit": 0
+   },
+   "theorist_B_haiku.json": {
+    "category": "close to the bulk Ge value (2.9 to 3.3 eV)",
+    "cat_hit": 0,
+    "value": 2.6,
+    "value_hit": 0
+   },
+   "theorist_C_asta_theorizer.json": {
+    "category": "close to the low-temperature metastable-film value (1.1 to 1.8 eV)",
+    "cat_hit": 0,
+    "value": null,
+    "value_hit": null
+   }
+  }
+ },
+ "screened": {
+  "label": "GeSn runs that kept crystal order (disclosed addition)",
+  "per_T": {
+   "500.0": {
+    "runs": 2,
+    "net_sn_hops": 46,
+    "rate_per_s": 46000000000.0,
+    "cancelled_frac": 0.914
+   }
+  },
+  "vibration_check": {
+   "cancelled_frac_by_T": {
+    "500.0": 0.914
+   },
+   "flicker_dominated": true
+  },
+  "mode": "lower_bound",
+  "Ea_lower_bound_eV": 0.444,
+  "T_max": 500.0,
+  "theorists": {
+   "theorist_A_sonnet.json": {
+    "category": "below 1.1 eV",
+    "refuted": 0,
+    "partly_graded": true
+   },
+   "theorist_B_haiku.json": {
+    "category": "close to the bulk Ge value (2.9 to 3.3 eV)",
+    "refuted": 0,
+    "partly_graded": true
+   },
+   "theorist_C_asta_theorizer.json": {
+    "category": "close to the low-temperature metastable-film value (1.1 to 1.8 eV)",
+    "refuted": 0,
+    "partly_graded": true
+   }
+  }
+ },
+ "runs": {
+  "gesn_x012_T500_s1": {
+   "T": 500.0,
+   "si": 0.0,
+   "prod_ps": 500.0,
+   "n_sn": 61,
+   "sn_hops": 242,
+   "net_sn_hops": 22,
+   "cancelled_frac": 0.909,
+   "vac_hops": 231,
+   "order": {
+    "epot_start_eV_atom": -4.3741,
+    "epot_end_eV_atom": -4.3751,
+    "n_vac_start": 2,
+    "n_vac_end": 2,
+    "max_disp_end_A": 1.44,
+    "order_lost_at_ps": null,
+    "crystalline": true
+   },
+   "sn_next_to_vac_start": 4
+  },
+  "gesn_x012_T500_s2": {
+   "T": 500.0,
+   "si": 0.0,
+   "prod_ps": 500.0,
+   "n_sn": 61,
+   "sn_hops": 292,
+   "net_sn_hops": 24,
+   "cancelled_frac": 0.918,
+   "vac_hops": 260,
+   "order": {
+    "epot_start_eV_atom": -4.3734,
+    "epot_end_eV_atom": -4.3751,
+    "n_vac_start": 2,
+    "n_vac_end": 2,
+    "max_disp_end_A": 1.61,
+    "order_lost_at_ps": null,
+    "crystalline": true
+   },
+   "sn_next_to_vac_start": 2
+  },
+  "gesn_x012_T600_s1": {
+   "T": 600.0,
+   "si": 0.0,
+   "prod_ps": 500.0,
+   "n_sn": 61,
+   "sn_hops": 11998,
+   "net_sn_hops": 4582,
+   "cancelled_frac": 0.618,
+   "vac_hops": 2,
+   "order": {
+    "epot_start_eV_atom": -4.3473,
+    "epot_end_eV_atom": -4.2739,
+    "n_vac_start": 2,
+    "n_vac_end": 3,
+    "max_disp_end_A": 2.42,
+    "order_lost_at_ps": 24.0,
+    "crystalline": false
+   },
+   "sn_next_to_vac_start": 4
+  },
+  "gesn_x012_T600_s2": {
+   "T": 600.0,
+   "si": 0.0,
+   "prod_ps": 500.0,
+   "n_sn": 61,
+   "sn_hops": 12198,
+   "net_sn_hops": 4546,
+   "cancelled_frac": 0.627,
+   "vac_hops": 0,
+   "order": {
+    "epot_start_eV_atom": -4.3327,
+    "epot_end_eV_atom": -4.2712,
+    "n_vac_start": 8,
+    "n_vac_end": 8,
+    "max_disp_end_A": 2.4,
+    "order_lost_at_ps": 26.0,
+    "crystalline": false
+   },
+   "sn_next_to_vac_start": 11
+  },
+  "gesn_x012_T700_s1": {
+   "T": 700.0,
+   "si": 0.0,
+   "prod_ps": 500.0,
+   "n_sn": 61,
+   "sn_hops": 13713,
+   "net_sn_hops": 6063,
+   "cancelled_frac": 0.558,
+   "vac_hops": 0,
+   "order": {
+    "epot_start_eV_atom": -4.269,
+    "epot_end_eV_atom": -4.2534,
+    "n_vac_start": 9,
+    "n_vac_end": 9,
+    "max_disp_end_A": 2.51,
+    "order_lost_at_ps": 482.0,
+    "crystalline": false
+   },
+   "sn_next_to_vac_start": 8
+  },
+  "gesn_x012_T700_s2": {
+   "T": 700.0,
+   "si": 0.0,
+   "prod_ps": 500.0,
+   "n_sn": 61,
+   "sn_hops": 13895,
+   "net_sn_hops": 6075,
+   "cancelled_frac": 0.563,
+   "vac_hops": 0,
+   "order": {
+    "epot_start_eV_atom": -4.2613,
+    "epot_end_eV_atom": -4.2583,
+    "n_vac_start": 26,
+    "n_vac_end": 26,
+    "max_disp_end_A": 2.38,
+    "order_lost_at_ps": null,
+    "crystalline": false
+   },
+   "sn_next_to_vac_start": 21
+  },
+  "sigesn_si010_x012_T600_s1": {
+   "T": 600.0,
+   "si": 0.1,
+   "prod_ps": 500.0,
+   "n_sn": 61,
+   "sn_hops": 988,
+   "net_sn_hops": 208,
+   "cancelled_frac": 0.789,
+   "vac_hops": 165,
+   "order": {
+    "epot_start_eV_atom": -4.4327,
+    "epot_end_eV_atom": -4.4054,
+    "n_vac_start": 2,
+    "n_vac_end": 8,
+    "max_disp_end_A": 2.34,
+    "order_lost_at_ps": 484.0,
+    "crystalline": false
+   },
+   "sn_next_to_vac_start": 1
+  }
+ }
+}

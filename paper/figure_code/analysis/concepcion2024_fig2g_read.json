@@ -1,0 +1,29 @@
+{
+ "source": "Concepcion et al., ACS Appl. Energy Mater. 7, 4394 (2024), doi 10.1021/acsaem.4c00275, Fig. 2g (Ge0.88Sn0.12 on 200 nm SiO2, differential 3-omega)",
+ "pdf": "White Rose eprint 212583 (publisher version, CC BY)",
+ "read_by": "vision read of the figure rendered at 400 dpi (Claude model, Anthropic, 2026-10-11); values approximate to about +/-0.1 W/mK and +/-10 nm",
+ "author_statements": [
+  "thermal conductivity constant for layers 100-700 nm thick, in agreement with previous Raman thermometry data (p. 4398)",
+  "from 55 W/(m K) for Ge to 4 W/(m K) for Ge0.88Sn0.12 (abstract)",
+  "layers from 100 to 700 nm show a constant thermal conductivity, as low as 5 W/(m K) (conclusions)",
+  "slightly increased kappa above 12 at.% Sn, likely related to short-range ordering (3-omega only)"
+ ],
+ "raman_band_W_mK": [4.45, 5.3],
+ "raman_band_note": "earlier micro-Raman literature values, drawn from about 230 to 800 nm; not measured on these films",
+ "points": [
+  {"t_nm": 45, "kappa": 0.9, "err": 0.8, "note": "pseudomorphic, text says 50 nm"},
+  {"t_nm": 45, "kappa": 0.75, "err": 0.8, "note": "pseudomorphic, text says 50 nm"},
+  {"t_nm": 110, "kappa": 4.0, "err": 0.6},
+  {"t_nm": 110, "kappa": 3.3, "err": 0.6},
+  {"t_nm": 280, "kappa": 4.55, "err": 0.4},
+  {"t_nm": 280, "kappa": 4.15, "err": 0.6},
+  {"t_nm": 305, "kappa": 4.7, "err": 0.55},
+  {"t_nm": 310, "kappa": 4.0, "err": 0.35},
+  {"t_nm": 335, "kappa": 5.45, "err": 0.5},
+  {"t_nm": 340, "kappa": 4.55, "err": 0.4},
+  {"t_nm": 385, "kappa": 4.6, "err": 0.6},
+  {"t_nm": 385, "kappa": 4.3, "err": 0.6},
+  {"t_nm": 705, "kappa": 4.75, "err": 0.5},
+  {"t_nm": 705, "kappa": 4.35, "err": 0.45}
+ ]
+}

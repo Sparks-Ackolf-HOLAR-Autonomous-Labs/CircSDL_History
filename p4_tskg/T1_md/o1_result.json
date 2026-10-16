@@ -1,0 +1,41 @@
+{
+ "n_samples": 8,
+ "n_converged": 8,
+ "E_b_per_sample_eV": [
+  0.5048,
+  0.5001,
+  0.3451,
+  0.4773,
+  0.3722,
+  0.2988,
+  0.5044,
+  0.4704
+ ],
+ "E_b_mean_eV": 0.4341369219098965,
+ "E_b_sd_eV": 0.08241691029498985,
+ "dilute_Ge_E_b_eV": 0.30119082741384773,
+ "a0_mace_A": 5.917492843516518,
+ "a0_Ge_mace_A": 5.776359720609768,
+ "graded": true,
+ "category": "bound by more than 0.3 eV",
+ "theorists": {
+  "theorist_A_sonnet.json": {
+   "category": "bound by more than 0.3 eV",
+   "cat_hit": 1,
+   "value": 0.35,
+   "value_hit": 1
+  },
+  "theorist_B_haiku.json": {
+   "category": "bound by 0 to 0.3 eV",
+   "cat_hit": 0,
+   "value": 0.2,
+   "value_hit": 0
+  },
+  "theorist_C_asta_theorizer.json": {
+   "category": "bound by more than 0.3 eV",
+   "cat_hit": 1,
+   "value": null,
+   "value_hit": null
+  }
+ }
+}

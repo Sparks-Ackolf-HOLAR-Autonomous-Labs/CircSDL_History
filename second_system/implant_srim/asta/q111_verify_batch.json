@@ -1,0 +1,216 @@
+[
+  {
+    "paperId": "979484c78e5838066660277b24d28e38f4810967",
+    "externalIds": {
+      "MAG": "1978361229",
+      "DOI": "10.1016/J.NIMB.2010.02.091",
+      "CorpusId": 94627202
+    },
+    "title": "SRIM \u2013 The stopping and range of ions in matter (2010)",
+    "venue": "",
+    "year": 2010,
+    "authors": [
+      {
+        "authorId": "1766408",
+        "name": "J. Ziegler"
+      },
+      {
+        "authorId": "31404363",
+        "name": "J. Biersack"
+      },
+      {
+        "authorId": "66627449",
+        "name": "M. Ziegler"
+      }
+    ]
+  },
+  {
+    "paperId": "d50b89d2f48612b070be3f34242b2ff1ea7327bf",
+    "externalIds": {
+      "MAG": "2061899458",
+      "DOI": "10.1016/J.NIMB.2013.05.008",
+      "CorpusId": 96586003
+    },
+    "title": "On the use of SRIM for computing radiation damage exposure",
+    "venue": "",
+    "year": 2013,
+    "authors": [
+      {
+        "authorId": "40097394",
+        "name": "R. Stoller"
+      },
+      {
+        "authorId": "91352500",
+        "name": "M. Toloczko"
+      },
+      {
+        "authorId": "11594340",
+        "name": "G. Was"
+      },
+      {
+        "authorId": "34760199",
+        "name": "A. Certain"
+      },
+      {
+        "authorId": "50989275",
+        "name": "S. Dwaraknath"
+      },
+      {
+        "authorId": "39352500",
+        "name": "F. Garner"
+      }
+    ]
+  },
+  {
+    "paperId": "cbbdfcf4057dd272196fa3fa3bfc264838c175ef",
+    "externalIds": {
+      "MAG": "2060164548",
+      "DOI": "10.1063/1.4891848",
+      "CorpusId": 121239092
+    },
+    "title": "Ge1\u2212xSnx alloys synthesized by ion implantation and pulsed laser melting",
+    "venue": "",
+    "year": 2014,
+    "authors": [
+      {
+        "authorId": "145954132",
+        "name": "K. Gao"
+      },
+      {
+        "authorId": "2924664",
+        "name": "S. Prucnal"
+      },
+      {
+        "authorId": "2060281572",
+        "name": "R. Huebner"
+      },
+      {
+        "authorId": "5327751",
+        "name": "C. Baehtz"
+      },
+      {
+        "authorId": "46937159",
+        "name": "I. Skorupa"
+      },
+      {
+        "authorId": "47906359",
+        "name": "Yu-Tian Wang"
+      },
+      {
+        "authorId": null,
+        "name": "W. Skorupa"
+      },
+      {
+        "authorId": "144246087",
+        "name": "M. Helm"
+      },
+      {
+        "authorId": "39999214",
+        "name": "Sheng-Qiang Zhou"
+      }
+    ]
+  },
+  {
+    "paperId": "e83ed42453afbb4ea13c069db2cfc336e247a3ba",
+    "externalIds": {
+      "DBLP": "journals/jossw/DrobnyC21",
+      "DOI": "10.21105/joss.03298",
+      "CorpusId": 237409362
+    },
+    "title": "RustBCA: A High-Performance Binary-Collision-Approximation Code for Ion-Material Interactions",
+    "venue": "Journal of Open Source Software",
+    "year": 2021,
+    "authors": [
+      {
+        "authorId": "52132060",
+        "name": "J. Drobny"
+      },
+      {
+        "authorId": "50995908",
+        "name": "D. Curreli"
+      }
+    ]
+  },
+  {
+    "paperId": "bbd72ef5159f37b23195e16a18f93c6cd845af2b",
+    "externalIds": {
+      "MAG": "2891094185",
+      "DOI": "10.1103/PHYSREVMATERIALS.2.095001",
+      "CorpusId": 53446811
+    },
+    "title": "Phonon scattering effects from point and extended defects on thermal conductivity studied via ion irradiation of crystals with self-impurities",
+    "venue": "PHYSICAL REVIEW MATERIALS",
+    "year": 2018,
+    "authors": [
+      {
+        "authorId": "144622329",
+        "name": "E. Scott"
+      },
+      {
+        "authorId": "4503361",
+        "name": "K. Hattar"
+      },
+      {
+        "authorId": "40001110",
+        "name": "Christina M. Rost"
+      },
+      {
+        "authorId": "35432055",
+        "name": "J. Gaskins"
+      },
+      {
+        "authorId": "2094106111",
+        "name": "Mehrdad Fazli"
+      },
+      {
+        "authorId": "2307431625",
+        "name": "C. Ganski"
+      },
+      {
+        "authorId": "2150357214",
+        "name": "Chao Li"
+      },
+      {
+        "authorId": "31065372",
+        "name": "Ting-Yu Bai"
+      },
+      {
+        "authorId": "119918205",
+        "name": "Ye-Kan Wang"
+      },
+      {
+        "authorId": "2274659",
+        "name": "K. Esfarjani"
+      },
+      {
+        "authorId": "47368383",
+        "name": "M. Goorsky"
+      },
+      {
+        "authorId": "143827230",
+        "name": "P. Hopkins"
+      }
+    ]
+  },
+  {
+    "paperId": "5bbb44f51c94e051ffecba92f79160e1e6e9698a",
+    "externalIds": {
+      "MAG": "2958764349",
+      "DOI": "10.1016/J.COSSMS.2019.06.001",
+      "CorpusId": 199184096
+    },
+    "title": "Predicting damage production in monoatomic and multi-elemental targets using stopping and range of ions in matter code: Challenges and recommendations",
+    "venue": "Current opinion in solid state & materials science",
+    "year": 2019,
+    "authors": [
+      {
+        "authorId": "2217319059",
+        "name": "W. J. Weber"
+      },
+      {
+        "authorId": "2504323564",
+        "name": "Yan-Wen Zhang"
+      }
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+{
+ "note": "files opened read-only by each figure script or checker, traced with strace on a scratch copy of the working project (paths shown under their public names)",
+ "reads": {
+  "paper/figure_code/make_figures.py": [
+   "p4_tskg/T1_md/o1_result.json",
+   "p4_tskg/T1_md/out/gesn_x012_T500_s1.json",
+   "p4_tskg/T1_md/out/gesn_x012_T500_s2.json",
+   "p4_tskg/T1_md/out/gesn_x012_T600_s1.json",
+   "p4_tskg/T1_md/out/gesn_x012_T600_s2.json",
+   "p4_tskg/T1_md/out/gesn_x012_T700_s1.json",
+   "p4_tskg/T1_md/out/gesn_x012_T700_s2.json",
+   "p4_tskg/T1_md/out/sigesn_si010_x012_T600_s1.json",
+   "p4_tskg/T1_md/t1_result.json",
+   "p4_tskg/T3_insitu/series.json",
+   "paper/figure_code/analysis/concepcion2024_fig2g_read.json",
+   "paper/figure_code/analysis/record_summary.json",
+   "paper/figure_code/make_figures.py",
+   "paper/figure_code/paper_fig_style.py",
+   "phase_c/ledger_campaign.jsonl",
+   "second_system/gesn_transfer_check.json"
+  ],
+  "paper/figure_code/analysis/build_record.py": [
+   "p4_tskg/T1_md/o1_result.json",
+   "p4_tskg/T1_md/out/gesn_x012_T500_s1.json",
+   "p4_tskg/T1_md/out/gesn_x012_T500_s2.json",
+   "p4_tskg/T1_md/out/gesn_x012_T600_s1.json",
+   "p4_tskg/T1_md/out/gesn_x012_T600_s2.json",
+   "p4_tskg/T1_md/out/gesn_x012_T700_s1.json",
+   "p4_tskg/T1_md/out/gesn_x012_T700_s2.json",
+   "p4_tskg/T1_md/out/sigesn_si010_x012_T600_s1.json",
+   "p4_tskg/T1_md/t1_result.json",
+   "p4_tskg/T3_insitu/series.json",
+   "p4_tskg/replay_ledger.py",
+   "p4_tskg/results/t3_tskg.json",
+   "p4_tskg/tskg.py",
+   "paper/figure_code/analysis/build_record.py",
+   "phase_c/ledger_campaign.jsonl"
+  ],
+  "paper/figure_code/make_esi_tables.py": [
+   "p4_tskg/T1_md/out/o1_x012_rep4.json",
+   "p4_tskg/T1_md/t1_result.json",
+   "p4_tskg/T3_insitu/sources.csv",
+   "paper/figure_code/make_esi_tables.py",
+   "phase_c/ledger_campaign.jsonl",
+   "second_system/gesn_transfer_check.json",
+   "second_system/implant_srim/code_crosscheck.json"
+  ],
+  "p4_tskg/test_t0.py": [
+   "p4_tskg/test_t0.py",
+   "p4_tskg/tskg.py"
+  ]
+ }
+}

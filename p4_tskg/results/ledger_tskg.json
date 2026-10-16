@@ -1,0 +1,4309 @@
+{
+ "nodes": [
+  {
+   "id": "src:agent",
+   "kind": "source",
+   "name": "campaign agent (decisions applied by registered rules or by the agent)"
+  },
+  {
+   "id": "proc:scope-limit-alloys",
+   "kind": "process",
+   "step": "campaign",
+   "name": "scope-limit-alloys"
+  },
+  {
+   "id": "rec:0",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "scope-limit",
+   "op_id": "scope-limit-alloys-2026-09-27",
+   "labels": [],
+   "time": "2026-09-27T04:20:34Z"
+  },
+  {
+   "id": "proc:correct-mace-units",
+   "kind": "process",
+   "step": "campaign",
+   "name": "correct-mace-units"
+  },
+  {
+   "id": "rec:1",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "correct",
+   "op_id": "correct-mace-units-2026-09-27",
+   "labels": [],
+   "time": "2026-09-28T02:34:20Z"
+  },
+  {
+   "id": "proc:gpumd-endpoint-production-2026-09-28",
+   "kind": "process",
+   "step": "campaign",
+   "name": "gpumd-endpoint-production-2026-09-28"
+  },
+  {
+   "id": "rec:2",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-gpumd-endpoint-production-2026-09-28",
+   "labels": [],
+   "time": "2026-09-28T17:07:39Z"
+  },
+  {
+   "id": "proc:phase-c-production-2026-09-28",
+   "kind": "process",
+   "step": "campaign",
+   "name": "phase-c-production-2026-09-28"
+  },
+  {
+   "id": "rec:3",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-phase-c-production-2026-09-28",
+   "labels": [],
+   "time": "2026-09-28T17:11:43Z"
+  },
+  {
+   "id": "proc:commit-blind-fault-catalog",
+   "kind": "process",
+   "step": "campaign",
+   "name": "commit-blind-fault-catalog"
+  },
+  {
+   "id": "rec:4",
+   "kind": "claim",
+   "ledger_kind": "commitment",
+   "op": null,
+   "op_id": "commit-blind-fault-catalog-2026-09-28",
+   "labels": [],
+   "time": "2026-09-28T17:16:22Z"
+  },
+  {
+   "id": "proc:freeze-detector",
+   "kind": "process",
+   "step": "campaign",
+   "name": "freeze-detector"
+  },
+  {
+   "id": "rec:5",
+   "kind": "claim",
+   "ledger_kind": "commitment",
+   "op": null,
+   "op_id": "freeze-detector-2026-09-28",
+   "labels": [],
+   "time": "2026-09-28T17:17:09Z"
+  },
+  {
+   "id": "proc:deviation-D1-detector",
+   "kind": "process",
+   "step": "campaign",
+   "name": "deviation-D1-detector"
+  },
+  {
+   "id": "rec:6",
+   "kind": "claim",
+   "ledger_kind": "deviation",
+   "op": null,
+   "op_id": "deviation-D1-detector-2026-09-28",
+   "labels": [],
+   "time": "2026-09-28T17:18:38Z"
+  },
+  {
+   "id": "proc:split-literature-microstructure",
+   "kind": "process",
+   "step": "campaign",
+   "name": "split-literature-microstructure"
+  },
+  {
+   "id": "rec:7",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "split",
+   "op_id": "split-literature-microstructure-2026-09-28",
+   "labels": [],
+   "time": "2026-09-28T17:41:40Z"
+  },
+  {
+   "id": "rec:8",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-gpumd-endpoint-production-2026-09-28-S0-alloy-crosscheck",
+   "labels": [],
+   "time": "2026-09-28T17:41:46Z"
+  },
+  {
+   "id": "rec:9",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-phase-c-production-2026-09-28-PB1",
+   "labels": [],
+   "time": "2026-09-28T17:47:31Z"
+  },
+  {
+   "id": "rec:10",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-phase-c-production-2026-09-28-PB2",
+   "labels": [],
+   "time": "2026-09-28T17:47:31Z"
+  },
+  {
+   "id": "rec:11",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-phase-c-production-2026-09-28-PB3",
+   "labels": [],
+   "time": "2026-09-28T17:47:31Z"
+  },
+  {
+   "id": "rec:12",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-phase-c-production-2026-09-28-PB4",
+   "labels": [],
+   "time": "2026-09-28T17:47:31Z"
+  },
+  {
+   "id": "rec:13",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-phase-c-production-2026-09-28-PB5",
+   "labels": [],
+   "time": "2026-09-28T17:47:31Z"
+  },
+  {
+   "id": "proc:deviation-D2-detector",
+   "kind": "process",
+   "step": "campaign",
+   "name": "deviation-D2-detector"
+  },
+  {
+   "id": "rec:14",
+   "kind": "claim",
+   "ledger_kind": "deviation",
+   "op": null,
+   "op_id": "deviation-D2-detector-2026-09-28",
+   "labels": [],
+   "time": "2026-09-28T17:50:49Z"
+  },
+  {
+   "id": "rec:15",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-gpumd-endpoint-production-2026-09-28-S1-anchor-300K",
+   "labels": [],
+   "time": "2026-09-29T07:27:31Z"
+  },
+  {
+   "id": "rec:16",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-gpumd-endpoint-production-2026-09-28-S2-size-check",
+   "labels": [],
+   "time": "2026-09-29T07:27:31Z"
+  },
+  {
+   "id": "rec:17",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-gpumd-endpoint-production-2026-09-28-S3-T-sweep",
+   "labels": [],
+   "time": "2026-09-29T07:27:31Z"
+  },
+  {
+   "id": "proc:close-gpumd-endpoint-production",
+   "kind": "process",
+   "step": "campaign",
+   "name": "close-gpumd-endpoint-production"
+  },
+  {
+   "id": "rec:18",
+   "kind": "claim",
+   "ledger_kind": "gate_failure",
+   "op": null,
+   "op_id": "close-gpumd-endpoint-production-2026-09-28",
+   "labels": [],
+   "time": "2026-09-29T07:28:42Z"
+  },
+  {
+   "id": "proc:shard-action-ge-corner-2026-09-29",
+   "kind": "process",
+   "step": "campaign",
+   "name": "shard-action-ge-corner-2026-09-29"
+  },
+  {
+   "id": "rec:19",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-shard-action-ge-corner-2026-09-29",
+   "labels": [],
+   "time": "2026-09-29T07:31:08Z"
+  },
+  {
+   "id": "proc:scope-limit-literature-non-SiGe",
+   "kind": "process",
+   "step": "campaign",
+   "name": "scope-limit-literature-non-SiGe"
+  },
+  {
+   "id": "rec:20",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "scope-limit",
+   "op_id": "scope-limit-literature-non-SiGe-2026-09-29",
+   "labels": [],
+   "time": "2026-09-29T07:39:13Z"
+  },
+  {
+   "id": "proc:forget-literature-absent-values",
+   "kind": "process",
+   "step": "campaign",
+   "name": "forget-literature-absent-values"
+  },
+  {
+   "id": "rec:21",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "forget",
+   "op_id": "forget-literature-absent-values-2026-09-29",
+   "labels": [],
+   "time": "2026-09-29T07:39:13Z"
+  },
+  {
+   "id": "proc:correct-literature-row34-x",
+   "kind": "process",
+   "step": "campaign",
+   "name": "correct-literature-row34-x"
+  },
+  {
+   "id": "rec:22",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "correct",
+   "op_id": "correct-literature-row34-x-2026-09-29",
+   "labels": [],
+   "time": "2026-09-29T07:39:13Z"
+  },
+  {
+   "id": "proc:quarantine-literature-unattributable",
+   "kind": "process",
+   "step": "campaign",
+   "name": "quarantine-literature-unattributable"
+  },
+  {
+   "id": "rec:23",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "quarantine",
+   "op_id": "quarantine-literature-unattributable-2026-09-29",
+   "labels": [],
+   "time": "2026-09-29T07:39:13Z"
+  },
+  {
+   "id": "proc:scope-limit-production-near-melting",
+   "kind": "process",
+   "step": "campaign",
+   "name": "scope-limit-production-near-melting"
+  },
+  {
+   "id": "rec:24",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "scope-limit",
+   "op_id": "scope-limit-production-near-melting-2026-09-29",
+   "labels": [],
+   "time": "2026-09-29T07:40:37Z"
+  },
+  {
+   "id": "proc:split-production-amorphous",
+   "kind": "process",
+   "step": "campaign",
+   "name": "split-production-amorphous"
+  },
+  {
+   "id": "rec:25",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "split",
+   "op_id": "split-production-amorphous-2026-09-29",
+   "labels": [],
+   "time": "2026-09-29T07:40:37Z"
+  },
+  {
+   "id": "rec:26",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-shard-action-ge-corner-2026-09-29",
+   "labels": [],
+   "time": "2026-09-29T08:16:54Z"
+  },
+  {
+   "id": "rec:27",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "restore",
+   "op_id": "release-quarantine-ge-corner-2026-09-29",
+   "labels": [],
+   "time": "2026-09-29T08:17:14Z"
+  },
+  {
+   "id": "rec:28",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "scope-limit",
+   "op_id": "scope-limit-alloy-law-x-le-0.90-2026-09-29",
+   "labels": [],
+   "time": "2026-09-29T08:17:14Z"
+  },
+  {
+   "id": "rec:29",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "basis-expansion-candidate",
+   "op_id": "candidate-dilute-ge-term-2026-09-29",
+   "labels": [],
+   "time": "2026-09-29T08:17:14Z"
+  },
+  {
+   "id": "proc:gpumd-endpoint-v2-2026-09-29",
+   "kind": "process",
+   "step": "campaign",
+   "name": "gpumd-endpoint-v2-2026-09-29"
+  },
+  {
+   "id": "rec:30",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-gpumd-endpoint-v2-2026-09-29",
+   "labels": [],
+   "time": "2026-09-29T08:45:56Z"
+  },
+  {
+   "id": "rec:31",
+   "kind": "claim",
+   "ledger_kind": "deviation",
+   "op": null,
+   "op_id": "deviation-gpumd-endpoint-v2-2026-09-29-placement",
+   "labels": [],
+   "time": "2026-09-29T08:48:14Z"
+  },
+  {
+   "id": "proc:p3-strain-seed-2026-09-29",
+   "kind": "process",
+   "step": "campaign",
+   "name": "p3-strain-seed-2026-09-29"
+  },
+  {
+   "id": "rec:32",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-p3-strain-seed-2026-09-29",
+   "labels": [],
+   "time": "2026-09-29T09:10:18Z"
+  },
+  {
+   "id": "rec:33",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-p3-strain-seed-2026-09-29",
+   "labels": [],
+   "time": "2026-09-29T09:29:37Z"
+  },
+  {
+   "id": "proc:acq-x0.7-T1100-2026-09-29",
+   "kind": "process",
+   "step": "campaign",
+   "name": "acq-x0.7-T1100-2026-09-29"
+  },
+  {
+   "id": "rec:34",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-acq-x0.7-T1100-2026-09-29",
+   "labels": [],
+   "time": "2026-09-29T09:47:55Z"
+  },
+  {
+   "id": "rec:35",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-acq07",
+   "labels": [],
+   "time": "2026-09-29T10:17:21Z"
+  },
+  {
+   "id": "rec:36",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "strengthen",
+   "op_id": "acq07-strengthen-interpolated_calibration",
+   "labels": [],
+   "time": "2026-09-29T10:17:26Z"
+  },
+  {
+   "id": "rec:37",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "downweight",
+   "op_id": "acq07-downweight-symbolic_transfer",
+   "labels": [],
+   "time": "2026-09-29T10:17:26Z"
+  },
+  {
+   "id": "rec:38",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "re-anchor",
+   "op_id": "acq07-transfer-law-refit",
+   "labels": [],
+   "time": "2026-09-29T10:17:26Z"
+  },
+  {
+   "id": "rec:39",
+   "kind": "claim",
+   "ledger_kind": "deviation",
+   "op": null,
+   "op_id": "deviation-gpumd-endpoint-v2-2026-09-29-V3-placement",
+   "labels": [],
+   "time": "2026-09-29T12:23:25Z"
+  },
+  {
+   "id": "proc:nano-sige-doping-2026-09-29",
+   "kind": "process",
+   "step": "campaign",
+   "name": "nano-sige-doping-2026-09-29"
+  },
+  {
+   "id": "rec:40",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-nano-sige-doping-2026-09-29",
+   "labels": [],
+   "time": "2026-09-29T12:29:00Z"
+  },
+  {
+   "id": "rec:41",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-gpumd-endpoint-v2-2026-09-29-V2-size-check",
+   "labels": [],
+   "time": "2026-09-29T12:31:24Z"
+  },
+  {
+   "id": "rec:42",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-gpumd-endpoint-v2-2026-09-29-V1-anchor-300K",
+   "labels": [],
+   "time": "2026-09-29T13:24:13Z"
+  },
+  {
+   "id": "rec:43",
+   "kind": "claim",
+   "ledger_kind": "gate_failure",
+   "op": null,
+   "op_id": "gate-failure-gpumd-endpoint-v2-T300",
+   "labels": [],
+   "time": "2026-09-29T13:24:48Z"
+  },
+  {
+   "id": "rec:44",
+   "kind": "claim",
+   "ledger_kind": "deviation",
+   "op": null,
+   "op_id": "deviation-gpumd-endpoint-v2-2026-09-29-V3-notch204",
+   "labels": [],
+   "time": "2026-09-29T13:25:17Z"
+  },
+  {
+   "id": "rec:45",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "batch-nano-sige-doping-2026-09-29",
+   "labels": [],
+   "time": "2026-09-29T13:26:23Z"
+  },
+  {
+   "id": "proc:nano-sigec-doping-2026-09-29",
+   "kind": "process",
+   "step": "campaign",
+   "name": "nano-sigec-doping-2026-09-29"
+  },
+  {
+   "id": "rec:46",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-nano-sigec-doping-2026-09-29",
+   "labels": [],
+   "time": "2026-09-29T14:35:40Z"
+  },
+  {
+   "id": "rec:47",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "batch-nano-sigec-doping-2026-09-29-M1",
+   "labels": [],
+   "time": "2026-09-29T16:25:34Z"
+  },
+  {
+   "id": "rec:48",
+   "kind": "claim",
+   "ledger_kind": "gate_failure",
+   "op": null,
+   "op_id": "gate-nano-sigec-doping-2026-09-29-M1b",
+   "labels": [],
+   "time": "2026-09-29T16:25:56Z"
+  },
+  {
+   "id": "rec:49",
+   "kind": "claim",
+   "ledger_kind": "analysis_result",
+   "op": null,
+   "op_id": "analysis-nano-sigec-doping-2026-09-29",
+   "labels": [],
+   "time": "2026-09-29T16:28:10Z"
+  },
+  {
+   "id": "rec:50",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-gpumd-endpoint-v2-2026-09-29-V3-highT",
+   "labels": [],
+   "time": "2026-09-29T16:59:45Z"
+  },
+  {
+   "id": "rec:51",
+   "kind": "claim",
+   "ledger_kind": "restore",
+   "op": null,
+   "op_id": "restore-gpumd-endpoint-v2-T700",
+   "labels": [],
+   "time": "2026-09-29T17:00:15Z"
+  },
+  {
+   "id": "rec:52",
+   "kind": "claim",
+   "ledger_kind": "gate_failure",
+   "op": null,
+   "op_id": "gate-failure-gpumd-endpoint-v2-T1100",
+   "labels": [],
+   "time": "2026-09-29T17:00:15Z"
+  },
+  {
+   "id": "proc:nano-sigec-m1c-converged-2026-09-30",
+   "kind": "process",
+   "step": "campaign",
+   "name": "nano-sigec-m1c-converged-2026-09-30"
+  },
+  {
+   "id": "rec:53",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-nano-sigec-m1c-converged-2026-09-30",
+   "labels": [],
+   "time": "2026-09-30T00:14:34Z"
+  },
+  {
+   "id": "rec:54",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "batch-nano-sigec-m1c-converged-2026-09-30",
+   "labels": [],
+   "time": "2026-09-30T00:27:14Z"
+  },
+  {
+   "id": "rec:55",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "strengthen",
+   "op_id": "m1c-strengthen-where-carbon-goes-2026-09-30",
+   "labels": [],
+   "time": "2026-09-30T00:29:11Z"
+  },
+  {
+   "id": "proc:p3-sigec-design-study-2026-09-30",
+   "kind": "process",
+   "step": "campaign",
+   "name": "p3-sigec-design-study-2026-09-30"
+  },
+  {
+   "id": "rec:56",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-p3-sigec-design-study-2026-09-30",
+   "labels": [],
+   "time": "2026-09-30T03:30:11Z"
+  },
+  {
+   "id": "rec:57",
+   "kind": "claim",
+   "ledger_kind": "analysis_result",
+   "op": null,
+   "op_id": null,
+   "labels": [],
+   "time": "2026-09-30T03:35:33Z"
+  },
+  {
+   "id": "proc:sigec-small-sic-md-2026-09-30",
+   "kind": "process",
+   "step": "campaign",
+   "name": "sigec-small-sic-md-2026-09-30"
+  },
+  {
+   "id": "rec:58",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-sigec-small-sic-md-2026-09-30",
+   "labels": [],
+   "time": "2026-09-30T04:28:26Z"
+  },
+  {
+   "id": "rec:59",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "batch-sigec-small-sic-md-2026-09-30",
+   "labels": [],
+   "time": "2026-09-30T05:51:59Z"
+  },
+  {
+   "id": "rec:60",
+   "kind": "claim",
+   "ledger_kind": "gate_failure",
+   "op": null,
+   "op_id": "gates-sigec-small-sic-md-2026-09-30",
+   "labels": [],
+   "time": "2026-09-30T05:54:05Z"
+  },
+  {
+   "id": "rec:61",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "downweight",
+   "op_id": "decision-sigec-small-sic-md-2026-09-30",
+   "labels": [],
+   "time": "2026-09-30T05:54:05Z"
+  },
+  {
+   "id": "proc:sigec-si-zone-2026-09-30",
+   "kind": "process",
+   "step": "campaign",
+   "name": "sigec-si-zone-2026-09-30"
+  },
+  {
+   "id": "rec:62",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-sigec-si-zone-2026-09-30",
+   "labels": [],
+   "time": "2026-09-30T11:20:10Z"
+  },
+  {
+   "id": "proc:p1-head-to-head-2026-09-30",
+   "kind": "process",
+   "step": "campaign",
+   "name": "p1-head-to-head-2026-09-30"
+  },
+  {
+   "id": "rec:63",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-p1-head-to-head-2026-09-30",
+   "labels": [],
+   "time": "2026-09-30T11:52:13Z"
+  },
+  {
+   "id": "proc:p3-mace-hidden-subset-2026-09-30",
+   "kind": "process",
+   "step": "campaign",
+   "name": "p3-mace-hidden-subset-2026-09-30"
+  },
+  {
+   "id": "rec:64",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-p3-mace-hidden-subset-2026-09-30",
+   "labels": [],
+   "time": "2026-09-30T11:53:32Z"
+  },
+  {
+   "id": "rec:65",
+   "kind": "claim",
+   "ledger_kind": "design",
+   "op": null,
+   "op_id": "reveal-hidden-p3-mace-2026-09-30",
+   "labels": [],
+   "time": "2026-09-30T11:53:32Z"
+  },
+  {
+   "id": "rec:66",
+   "kind": "claim",
+   "ledger_kind": "deviation",
+   "op": null,
+   "op_id": "deviation-h2h-D1-2026-09-30",
+   "labels": [],
+   "time": "2026-09-30T11:57:24Z"
+  },
+  {
+   "id": "rec:67",
+   "kind": "claim",
+   "ledger_kind": "commit",
+   "op": null,
+   "op_id": "commit-h2h-bte-oracle-2026-09-30",
+   "labels": [],
+   "time": "2026-09-30T13:08:16Z"
+  },
+  {
+   "id": "rec:68",
+   "kind": "claim",
+   "ledger_kind": "observation",
+   "op": null,
+   "op_id": "observation-p3-mace-gradient-2026-09-30",
+   "labels": [],
+   "time": "2026-09-30T13:23:36Z"
+  },
+  {
+   "id": "rec:69",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "batch-sigec-si-zone-2026-09-30",
+   "labels": [],
+   "time": "2026-09-30T22:16:31Z"
+  },
+  {
+   "id": "rec:70",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "strengthen",
+   "op_id": "si-zone-decision-2026-09-30",
+   "labels": [],
+   "time": "2026-09-30T22:17:15Z"
+  },
+  {
+   "id": "rec:71",
+   "kind": "claim",
+   "ledger_kind": "observation",
+   "op": null,
+   "op_id": "ledger-rehash-seq70-2026-09-30",
+   "labels": [],
+   "time": "2026-10-01T00:23:00Z"
+  },
+  {
+   "id": "rec:72",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "batch-p3-mace-hidden-subset-2026-09-30",
+   "labels": [],
+   "time": "2026-10-01T00:23:01Z"
+  },
+  {
+   "id": "rec:73",
+   "kind": "claim",
+   "ledger_kind": "analysis",
+   "op": null,
+   "op_id": "analysis-p3-mace-hidden-subset-2026-09-30",
+   "labels": [],
+   "time": "2026-10-01T00:26:22Z"
+  },
+  {
+   "id": "proc:sigec-light-dopants-2026-10-01",
+   "kind": "process",
+   "step": "campaign",
+   "name": "sigec-light-dopants-2026-10-01"
+  },
+  {
+   "id": "rec:74",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-sigec-light-dopants-2026-10-01",
+   "labels": [],
+   "time": "2026-10-01T00:43:28Z"
+  },
+  {
+   "id": "rec:75",
+   "kind": "claim",
+   "ledger_kind": "analysis",
+   "op": null,
+   "op_id": "analysis-sigec-light-dopants-2026-10-01",
+   "labels": [],
+   "time": "2026-10-01T00:46:01Z"
+  },
+  {
+   "id": "rec:76",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "strengthen",
+   "op_id": "decision-sigec-light-dopants-2026-10-01",
+   "labels": [],
+   "time": "2026-10-01T00:46:01Z"
+  },
+  {
+   "id": "rec:77",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "scope_limit",
+   "op_id": "scope-density-edge-pick-2026-10-01",
+   "labels": [],
+   "time": "2026-10-01T00:46:01Z"
+  },
+  {
+   "id": "proc:sigec-small-sic-md-x03-2026-10-01",
+   "kind": "process",
+   "step": "campaign",
+   "name": "sigec-small-sic-md-x03-2026-10-01"
+  },
+  {
+   "id": "rec:78",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-sigec-small-sic-md-x03-2026-10-01",
+   "labels": [],
+   "time": "2026-10-01T04:15:30Z"
+  },
+  {
+   "id": "rec:79",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "batch-sigec-small-sic-md-x03-2026-10-01",
+   "labels": [],
+   "time": "2026-10-01T11:04:26Z"
+  },
+  {
+   "id": "rec:80",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "correct",
+   "op_id": "decision-sigec-small-sic-md-x03-2026-10-01",
+   "labels": [],
+   "time": "2026-10-01T11:04:41Z"
+  },
+  {
+   "id": "proc:phase-c-detector-v2-2026-10-01",
+   "kind": "process",
+   "step": "campaign",
+   "name": "phase-c-detector-v2-2026-10-01"
+  },
+  {
+   "id": "rec:81",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-phase-c-detector-v2-2026-10-01",
+   "labels": [],
+   "time": "2026-10-01T13:30:44Z"
+  },
+  {
+   "id": "rec:82",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-detector-v2-descriptors",
+   "labels": [],
+   "time": "2026-10-01T13:53:52Z"
+  },
+  {
+   "id": "rec:83",
+   "kind": "claim",
+   "ledger_kind": "deviation",
+   "op": null,
+   "op_id": "deviation-D3-phase-c-detector-v2-2026-10-01",
+   "labels": [],
+   "time": "2026-10-01T13:54:30Z"
+  },
+  {
+   "id": "rec:84",
+   "kind": "claim",
+   "ledger_kind": "commitment",
+   "op": null,
+   "op_id": "decision-phase-c-detector-v2-2026-10-01",
+   "labels": [],
+   "time": "2026-10-01T13:55:59Z"
+  },
+  {
+   "id": "proc:gpumd-sizefree-kappa-2026-10-02",
+   "kind": "process",
+   "step": "campaign",
+   "name": "gpumd-sizefree-kappa-2026-10-02"
+  },
+  {
+   "id": "rec:85",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-gpumd-sizefree-kappa-2026-10-02",
+   "labels": [],
+   "time": "2026-10-03T05:22:59Z"
+  },
+  {
+   "id": "rec:86",
+   "kind": "claim",
+   "ledger_kind": "deviation",
+   "op": null,
+   "op_id": "dev-gpumd-sizefree-2026-10-02-placement",
+   "labels": [],
+   "time": "2026-10-03T05:27:19Z"
+  },
+  {
+   "id": "rec:87",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-gpumd-sizefree-kappa-2026-10-02-H1-300K",
+   "labels": [],
+   "time": "2026-10-04T05:39:14Z"
+  },
+  {
+   "id": "rec:88",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-gpumd-sizefree-kappa-2026-10-02-H2-highT",
+   "labels": [],
+   "time": "2026-10-04T05:39:17Z"
+  },
+  {
+   "id": "rec:89",
+   "kind": "claim",
+   "ledger_kind": "analysis",
+   "op": null,
+   "op_id": "analysis-gpumd-sizefree-kappa-2026-10-02",
+   "labels": [],
+   "time": "2026-10-04T05:40:05Z"
+  },
+  {
+   "id": "rec:90",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "correct",
+   "op_id": "decision-gpumd-sizefree-kappa-2026-10-02",
+   "labels": [],
+   "time": "2026-10-04T05:40:05Z"
+  },
+  {
+   "id": "proc:gpumd-sizefree-check300-2026-10-04",
+   "kind": "process",
+   "step": "campaign",
+   "name": "gpumd-sizefree-check300-2026-10-04"
+  },
+  {
+   "id": "rec:91",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-gpumd-sizefree-check300-2026-10-04",
+   "labels": [],
+   "time": "2026-10-04T07:11:18Z"
+  },
+  {
+   "id": "proc:db-version-bump-starrydata-2026-10-04",
+   "kind": "process",
+   "step": "campaign",
+   "name": "db-version-bump-starrydata-2026-10-04"
+  },
+  {
+   "id": "rec:92",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-db-version-bump-starrydata-2026-10-04",
+   "labels": [],
+   "time": "2026-10-04T07:15:18Z"
+  },
+  {
+   "id": "rec:93",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-db-version-bump-starrydata-2026-10-04-data-20261003",
+   "labels": [],
+   "time": "2026-10-04T07:16:27Z"
+  },
+  {
+   "id": "rec:94",
+   "kind": "claim",
+   "ledger_kind": "analysis",
+   "op": null,
+   "op_id": "analysis-db-version-bump-starrydata-2026-10-04",
+   "labels": [],
+   "time": "2026-10-04T07:16:48Z"
+  },
+  {
+   "id": "rec:95",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "strengthen",
+   "op_id": "decision-db-version-bump-starrydata-2026-10-04",
+   "labels": [],
+   "time": "2026-10-04T07:16:48Z"
+  },
+  {
+   "id": "rec:96",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-gpumd-sizefree-check300-2026-10-04-C300",
+   "labels": [],
+   "time": "2026-10-04T08:10:40Z"
+  },
+  {
+   "id": "rec:97",
+   "kind": "claim",
+   "ledger_kind": "analysis",
+   "op": null,
+   "op_id": "analysis-gpumd-sizefree-check300-2026-10-04",
+   "labels": [],
+   "time": "2026-10-04T08:10:54Z"
+  },
+  {
+   "id": "rec:98",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "scope_limit",
+   "op_id": "decision-gpumd-sizefree-check300-2026-10-04",
+   "labels": [],
+   "time": "2026-10-04T08:10:54Z"
+  },
+  {
+   "id": "proc:gpumd-sizefree-level300-2026-10-04",
+   "kind": "process",
+   "step": "campaign",
+   "name": "gpumd-sizefree-level300-2026-10-04"
+  },
+  {
+   "id": "rec:99",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-gpumd-sizefree-level300-2026-10-04",
+   "labels": [],
+   "time": "2026-10-04T10:44:11Z"
+  },
+  {
+   "id": "rec:100",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-gpumd-sizefree-level300-2026-10-04-L1",
+   "labels": [],
+   "time": "2026-10-06T16:48:57Z"
+  },
+  {
+   "id": "rec:101",
+   "kind": "claim",
+   "ledger_kind": "analysis",
+   "op": null,
+   "op_id": "analysis-gpumd-sizefree-level300-2026-10-04",
+   "labels": [],
+   "time": "2026-10-06T16:49:23Z"
+  },
+  {
+   "id": "rec:102",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "scope_limit",
+   "op_id": "decision-gpumd-sizefree-level300-2026-10-04",
+   "labels": [],
+   "time": "2026-10-06T16:49:23Z"
+  },
+  {
+   "id": "proc:sigec-small-sic-md-r30-2026-10-06",
+   "kind": "process",
+   "step": "campaign",
+   "name": "sigec-small-sic-md-r30-2026-10-06"
+  },
+  {
+   "id": "rec:103",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-sigec-small-sic-md-r30-2026-10-06",
+   "labels": [],
+   "time": "2026-10-06T17:06:11Z"
+  },
+  {
+   "id": "rec:104",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "batch-sigec-small-sic-md-r30-2026-10-06",
+   "labels": [],
+   "time": "2026-10-06T18:37:37Z"
+  },
+  {
+   "id": "rec:105",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "correct",
+   "op_id": "decision-sigec-small-sic-md-r30-2026-10-06",
+   "labels": [],
+   "time": "2026-10-06T18:38:14Z"
+  },
+  {
+   "id": "proc:sigec-small-sic-md-r50-2026-10-07",
+   "kind": "process",
+   "step": "campaign",
+   "name": "sigec-small-sic-md-r50-2026-10-07"
+  },
+  {
+   "id": "rec:106",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-sigec-small-sic-md-r50-2026-10-07",
+   "labels": [],
+   "time": "2026-10-07T05:41:30Z"
+  },
+  {
+   "id": "proc:gpumd-gk300-level-2026-10-07",
+   "kind": "process",
+   "step": "campaign",
+   "name": "gpumd-gk300-level-2026-10-07"
+  },
+  {
+   "id": "rec:107",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-gpumd-gk300-level-2026-10-07",
+   "labels": [],
+   "time": "2026-10-07T05:44:30Z"
+  },
+  {
+   "id": "rec:108",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "batch-sigec-small-sic-md-r50-2026-10-07",
+   "labels": [],
+   "time": "2026-10-08T15:03:51Z"
+  },
+  {
+   "id": "rec:109",
+   "kind": "claim",
+   "ledger_kind": "gate_failure",
+   "op": null,
+   "op_id": "gates-sigec-small-sic-md-r50-2026-10-07",
+   "labels": [],
+   "time": "2026-10-08T15:04:18Z"
+  },
+  {
+   "id": "rec:110",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "strengthen",
+   "op_id": "decision-sigec-small-sic-md-r50-2026-10-07",
+   "labels": [],
+   "time": "2026-10-08T15:04:18Z"
+  },
+  {
+   "id": "rec:111",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-gpumd-gk300-level-2026-10-07-K1",
+   "labels": [],
+   "time": "2026-10-08T15:04:38Z"
+  },
+  {
+   "id": "proc:gk300",
+   "kind": "process",
+   "step": "campaign",
+   "name": "gk300"
+  },
+  {
+   "id": "rec:112",
+   "kind": "claim",
+   "ledger_kind": "deviation",
+   "op": null,
+   "op_id": "dev-gk300-parser",
+   "labels": [],
+   "time": "2026-10-08T15:04:59Z"
+  },
+  {
+   "id": "rec:113",
+   "kind": "claim",
+   "ledger_kind": "batch_result",
+   "op": null,
+   "op_id": "commit-gpumd-gk300-level-2026-10-07-K2-box12",
+   "labels": [],
+   "time": "2026-10-09T03:25:04Z"
+  },
+  {
+   "id": "rec:114",
+   "kind": "claim",
+   "ledger_kind": "analysis",
+   "op": null,
+   "op_id": "analysis-gpumd-gk300-level-2026-10-07",
+   "labels": [],
+   "time": "2026-10-09T03:25:20Z"
+  },
+  {
+   "id": "rec:115",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "correct",
+   "op_id": "decision-gpumd-gk300-level-2026-10-07",
+   "labels": [],
+   "time": "2026-10-09T03:25:20Z"
+  },
+  {
+   "id": "proc:p3-replication-reserve-2026-10-09",
+   "kind": "process",
+   "step": "campaign",
+   "name": "p3-replication-reserve-2026-10-09"
+  },
+  {
+   "id": "rec:116",
+   "kind": "claim",
+   "ledger_kind": "preregistration",
+   "op": null,
+   "op_id": "prereg-p3-replication-reserve-2026-10-09",
+   "labels": [],
+   "time": "2026-10-09T16:45:31Z"
+  },
+  {
+   "id": "rec:117",
+   "kind": "claim",
+   "ledger_kind": "analysis",
+   "op": null,
+   "op_id": "analysis-p3-replication-reserve-2026-10-09",
+   "labels": [],
+   "time": "2026-10-09T16:47:40Z"
+  },
+  {
+   "id": "proc:criteria-exceptional-label",
+   "kind": "process",
+   "step": "campaign",
+   "name": "criteria-exceptional-label"
+  },
+  {
+   "id": "rec:118",
+   "kind": "claim",
+   "ledger_kind": "commitment",
+   "op": null,
+   "op_id": "criteria-exceptional-label-2026-10-09",
+   "labels": [],
+   "time": "2026-10-09T16:47:40Z"
+  },
+  {
+   "id": "proc:retro-exceptional-ge-corner",
+   "kind": "process",
+   "step": "campaign",
+   "name": "retro-exceptional-ge-corner"
+  },
+  {
+   "id": "rec:119",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "annotate",
+   "op_id": "retro-exceptional-ge-corner",
+   "labels": [
+    "exceptional"
+   ],
+   "time": "2026-10-09T16:47:40Z"
+  },
+  {
+   "id": "proc:retro-exceptional-amorphous-probes",
+   "kind": "process",
+   "step": "campaign",
+   "name": "retro-exceptional-amorphous-probes"
+  },
+  {
+   "id": "rec:120",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "annotate",
+   "op_id": "retro-exceptional-amorphous-probes",
+   "labels": [
+    "exceptional"
+   ],
+   "time": "2026-10-09T16:47:40Z"
+  },
+  {
+   "id": "proc:retro-exceptional-si-rich-zone",
+   "kind": "process",
+   "step": "campaign",
+   "name": "retro-exceptional-si-rich-zone"
+  },
+  {
+   "id": "rec:121",
+   "kind": "claim",
+   "ledger_kind": "shard_operation",
+   "op": "annotate",
+   "op_id": "retro-exceptional-si-rich-zone",
+   "labels": [
+    "exceptional"
+   ],
+   "time": "2026-10-09T16:47:40Z"
+  }
+ ],
+ "events": [
+  {
+   "id": "ev:0",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-27T04:20:34Z",
+    "2026-09-27T04:20:34Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:0"
+   ],
+   "process": "proc:scope-limit-alloys",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:1",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-28T02:34:20Z",
+    "2026-09-28T02:34:20Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:1"
+   ],
+   "process": "proc:correct-mace-units",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:2",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-09-28T17:07:39Z",
+    "2026-09-28T17:07:39Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:2"
+   ],
+   "process": "proc:gpumd-endpoint-production-2026-09-28",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:3",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-09-28T17:11:43Z",
+    "2026-09-28T17:11:43Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:3"
+   ],
+   "process": "proc:phase-c-production-2026-09-28",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:4",
+   "kind": "commitment",
+   "clock": "campaign",
+   "window": [
+    "2026-09-28T17:16:22Z",
+    "2026-09-28T17:16:22Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:4"
+   ],
+   "process": "proc:commit-blind-fault-catalog",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:5",
+   "kind": "commitment",
+   "clock": "campaign",
+   "window": [
+    "2026-09-28T17:17:09Z",
+    "2026-09-28T17:17:09Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:5"
+   ],
+   "process": "proc:freeze-detector",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:6",
+   "kind": "deviation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-28T17:18:38Z",
+    "2026-09-28T17:18:38Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:6"
+   ],
+   "process": "proc:deviation-D1-detector",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:7",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-28T17:41:40Z",
+    "2026-09-28T17:41:40Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:7"
+   ],
+   "process": "proc:split-literature-microstructure",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:8",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-28T17:41:46Z",
+    "2026-09-28T17:41:46Z"
+   ],
+   "before": [
+    "rec:2"
+   ],
+   "after": [
+    "rec:8"
+   ],
+   "process": "proc:gpumd-endpoint-production-2026-09-28",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    2
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:9",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-28T17:47:31Z",
+    "2026-09-28T17:47:31Z"
+   ],
+   "before": [
+    "rec:3"
+   ],
+   "after": [
+    "rec:9"
+   ],
+   "process": "proc:phase-c-production-2026-09-28",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    3
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:10",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-28T17:47:31Z",
+    "2026-09-28T17:47:31Z"
+   ],
+   "before": [
+    "rec:3",
+    "rec:9"
+   ],
+   "after": [
+    "rec:10"
+   ],
+   "process": "proc:phase-c-production-2026-09-28",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    3,
+    9
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:11",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-28T17:47:31Z",
+    "2026-09-28T17:47:31Z"
+   ],
+   "before": [
+    "rec:3",
+    "rec:9",
+    "rec:10"
+   ],
+   "after": [
+    "rec:11"
+   ],
+   "process": "proc:phase-c-production-2026-09-28",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    3,
+    9,
+    10
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:12",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-28T17:47:31Z",
+    "2026-09-28T17:47:31Z"
+   ],
+   "before": [
+    "rec:3",
+    "rec:9",
+    "rec:10",
+    "rec:11"
+   ],
+   "after": [
+    "rec:12"
+   ],
+   "process": "proc:phase-c-production-2026-09-28",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    3,
+    9,
+    10,
+    11
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:13",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-28T17:47:31Z",
+    "2026-09-28T17:47:31Z"
+   ],
+   "before": [
+    "rec:3",
+    "rec:9",
+    "rec:10",
+    "rec:11",
+    "rec:12"
+   ],
+   "after": [
+    "rec:13"
+   ],
+   "process": "proc:phase-c-production-2026-09-28",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    3,
+    9,
+    10,
+    11,
+    12
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:14",
+   "kind": "deviation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-28T17:50:49Z",
+    "2026-09-28T17:50:49Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:14"
+   ],
+   "process": "proc:deviation-D2-detector",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:15",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T07:27:31Z",
+    "2026-09-29T07:27:31Z"
+   ],
+   "before": [
+    "rec:2",
+    "rec:8"
+   ],
+   "after": [
+    "rec:15"
+   ],
+   "process": "proc:gpumd-endpoint-production-2026-09-28",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    2,
+    8
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:16",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T07:27:31Z",
+    "2026-09-29T07:27:31Z"
+   ],
+   "before": [
+    "rec:2",
+    "rec:8",
+    "rec:15"
+   ],
+   "after": [
+    "rec:16"
+   ],
+   "process": "proc:gpumd-endpoint-production-2026-09-28",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    2,
+    8,
+    15
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:17",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T07:27:31Z",
+    "2026-09-29T07:27:31Z"
+   ],
+   "before": [
+    "rec:2",
+    "rec:8",
+    "rec:15",
+    "rec:16"
+   ],
+   "after": [
+    "rec:17"
+   ],
+   "process": "proc:gpumd-endpoint-production-2026-09-28",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    2,
+    8,
+    15,
+    16
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:18",
+   "kind": "gate_failure",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T07:28:42Z",
+    "2026-09-29T07:28:42Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:18"
+   ],
+   "process": "proc:close-gpumd-endpoint-production",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:19",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T07:31:08Z",
+    "2026-09-29T07:31:08Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:19"
+   ],
+   "process": "proc:shard-action-ge-corner-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:20",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T07:39:13Z",
+    "2026-09-29T07:39:13Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:20"
+   ],
+   "process": "proc:scope-limit-literature-non-SiGe",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:21",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T07:39:13Z",
+    "2026-09-29T07:39:13Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:21"
+   ],
+   "process": "proc:forget-literature-absent-values",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:22",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T07:39:13Z",
+    "2026-09-29T07:39:13Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:22"
+   ],
+   "process": "proc:correct-literature-row34-x",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:23",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T07:39:13Z",
+    "2026-09-29T07:39:13Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:23"
+   ],
+   "process": "proc:quarantine-literature-unattributable",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:24",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T07:40:37Z",
+    "2026-09-29T07:40:37Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:24"
+   ],
+   "process": "proc:scope-limit-production-near-melting",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:25",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T07:40:37Z",
+    "2026-09-29T07:40:37Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:25"
+   ],
+   "process": "proc:split-production-amorphous",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:26",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T08:16:54Z",
+    "2026-09-29T08:16:54Z"
+   ],
+   "before": [
+    "rec:19"
+   ],
+   "after": [
+    "rec:26"
+   ],
+   "process": "proc:shard-action-ge-corner-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    19
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:27",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T08:17:14Z",
+    "2026-09-29T08:17:14Z"
+   ],
+   "before": [
+    "rec:19",
+    "rec:26"
+   ],
+   "after": [
+    "rec:27"
+   ],
+   "process": "proc:shard-action-ge-corner-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    19,
+    26
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:28",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T08:17:14Z",
+    "2026-09-29T08:17:14Z"
+   ],
+   "before": [
+    "rec:19",
+    "rec:26",
+    "rec:27"
+   ],
+   "after": [
+    "rec:28"
+   ],
+   "process": "proc:shard-action-ge-corner-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    19,
+    26,
+    27
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:29",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T08:17:14Z",
+    "2026-09-29T08:17:14Z"
+   ],
+   "before": [
+    "rec:19",
+    "rec:26",
+    "rec:27",
+    "rec:28"
+   ],
+   "after": [
+    "rec:29"
+   ],
+   "process": "proc:shard-action-ge-corner-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    19,
+    26,
+    27,
+    28
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:30",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T08:45:56Z",
+    "2026-09-29T08:45:56Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:30"
+   ],
+   "process": "proc:gpumd-endpoint-v2-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:31",
+   "kind": "deviation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T08:48:14Z",
+    "2026-09-29T08:48:14Z"
+   ],
+   "before": [
+    "rec:30"
+   ],
+   "after": [
+    "rec:31"
+   ],
+   "process": "proc:gpumd-endpoint-v2-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    30
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:32",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T09:10:18Z",
+    "2026-09-29T09:10:18Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:32"
+   ],
+   "process": "proc:p3-strain-seed-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:33",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T09:29:37Z",
+    "2026-09-29T09:29:37Z"
+   ],
+   "before": [
+    "rec:32"
+   ],
+   "after": [
+    "rec:33"
+   ],
+   "process": "proc:p3-strain-seed-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    32
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:34",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T09:47:55Z",
+    "2026-09-29T09:47:55Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:34"
+   ],
+   "process": "proc:acq-x0.7-T1100-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:35",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T10:17:21Z",
+    "2026-09-29T10:17:21Z"
+   ],
+   "before": [
+    "rec:34"
+   ],
+   "after": [
+    "rec:35"
+   ],
+   "process": "proc:acq-x0.7-T1100-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    34
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:36",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T10:17:26Z",
+    "2026-09-29T10:17:26Z"
+   ],
+   "before": [
+    "rec:34",
+    "rec:35"
+   ],
+   "after": [
+    "rec:36"
+   ],
+   "process": "proc:acq-x0.7-T1100-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    34,
+    35
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:37",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T10:17:26Z",
+    "2026-09-29T10:17:26Z"
+   ],
+   "before": [
+    "rec:34",
+    "rec:35",
+    "rec:36"
+   ],
+   "after": [
+    "rec:37"
+   ],
+   "process": "proc:acq-x0.7-T1100-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    34,
+    35,
+    36
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:38",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T10:17:26Z",
+    "2026-09-29T10:17:26Z"
+   ],
+   "before": [
+    "rec:34",
+    "rec:35",
+    "rec:36",
+    "rec:37"
+   ],
+   "after": [
+    "rec:38"
+   ],
+   "process": "proc:acq-x0.7-T1100-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    34,
+    35,
+    36,
+    37
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:39",
+   "kind": "deviation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T12:23:25Z",
+    "2026-09-29T12:23:25Z"
+   ],
+   "before": [
+    "rec:30",
+    "rec:31"
+   ],
+   "after": [
+    "rec:39"
+   ],
+   "process": "proc:gpumd-endpoint-v2-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    30,
+    31
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:40",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T12:29:00Z",
+    "2026-09-29T12:29:00Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:40"
+   ],
+   "process": "proc:nano-sige-doping-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:41",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T12:31:24Z",
+    "2026-09-29T12:31:24Z"
+   ],
+   "before": [
+    "rec:30",
+    "rec:31",
+    "rec:39"
+   ],
+   "after": [
+    "rec:41"
+   ],
+   "process": "proc:gpumd-endpoint-v2-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    30,
+    31,
+    39
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:42",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T13:24:13Z",
+    "2026-09-29T13:24:13Z"
+   ],
+   "before": [
+    "rec:30",
+    "rec:31",
+    "rec:39",
+    "rec:41"
+   ],
+   "after": [
+    "rec:42"
+   ],
+   "process": "proc:gpumd-endpoint-v2-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    30,
+    31,
+    39,
+    41
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:43",
+   "kind": "gate_failure",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T13:24:48Z",
+    "2026-09-29T13:24:48Z"
+   ],
+   "before": [
+    "rec:30",
+    "rec:31",
+    "rec:39",
+    "rec:41",
+    "rec:42"
+   ],
+   "after": [
+    "rec:43"
+   ],
+   "process": "proc:gpumd-endpoint-v2-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    30,
+    31,
+    39,
+    41,
+    42
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:44",
+   "kind": "deviation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T13:25:17Z",
+    "2026-09-29T13:25:17Z"
+   ],
+   "before": [
+    "rec:30",
+    "rec:31",
+    "rec:39",
+    "rec:41",
+    "rec:42",
+    "rec:43"
+   ],
+   "after": [
+    "rec:44"
+   ],
+   "process": "proc:gpumd-endpoint-v2-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    30,
+    31,
+    39,
+    41,
+    42,
+    43
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:45",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T13:26:23Z",
+    "2026-09-29T13:26:23Z"
+   ],
+   "before": [
+    "rec:40"
+   ],
+   "after": [
+    "rec:45"
+   ],
+   "process": "proc:nano-sige-doping-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    40
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:46",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T14:35:40Z",
+    "2026-09-29T14:35:40Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:46"
+   ],
+   "process": "proc:nano-sigec-doping-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:47",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T16:25:34Z",
+    "2026-09-29T16:25:34Z"
+   ],
+   "before": [
+    "rec:46"
+   ],
+   "after": [
+    "rec:47"
+   ],
+   "process": "proc:nano-sigec-doping-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    46
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:48",
+   "kind": "gate_failure",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T16:25:56Z",
+    "2026-09-29T16:25:56Z"
+   ],
+   "before": [
+    "rec:46",
+    "rec:47"
+   ],
+   "after": [
+    "rec:48"
+   ],
+   "process": "proc:nano-sigec-doping-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    46,
+    47
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:49",
+   "kind": "analysis_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T16:28:10Z",
+    "2026-09-29T16:28:10Z"
+   ],
+   "before": [
+    "rec:46",
+    "rec:47",
+    "rec:48"
+   ],
+   "after": [
+    "rec:49"
+   ],
+   "process": "proc:nano-sigec-doping-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    46,
+    47,
+    48
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:50",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T16:59:45Z",
+    "2026-09-29T16:59:45Z"
+   ],
+   "before": [
+    "rec:30",
+    "rec:31",
+    "rec:39",
+    "rec:41",
+    "rec:42",
+    "rec:43",
+    "rec:44"
+   ],
+   "after": [
+    "rec:50"
+   ],
+   "process": "proc:gpumd-endpoint-v2-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    30,
+    31,
+    39,
+    41,
+    42,
+    43,
+    44
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:51",
+   "kind": "restore",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T17:00:15Z",
+    "2026-09-29T17:00:15Z"
+   ],
+   "before": [
+    "rec:30",
+    "rec:31",
+    "rec:39",
+    "rec:41",
+    "rec:42",
+    "rec:43",
+    "rec:44",
+    "rec:50"
+   ],
+   "after": [
+    "rec:51"
+   ],
+   "process": "proc:gpumd-endpoint-v2-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    30,
+    31,
+    39,
+    41,
+    42,
+    43,
+    44,
+    50
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:52",
+   "kind": "gate_failure",
+   "clock": "campaign",
+   "window": [
+    "2026-09-29T17:00:15Z",
+    "2026-09-29T17:00:15Z"
+   ],
+   "before": [
+    "rec:30",
+    "rec:31",
+    "rec:39",
+    "rec:41",
+    "rec:42",
+    "rec:43",
+    "rec:44",
+    "rec:50",
+    "rec:51"
+   ],
+   "after": [
+    "rec:52"
+   ],
+   "process": "proc:gpumd-endpoint-v2-2026-09-29",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    30,
+    31,
+    39,
+    41,
+    42,
+    43,
+    44,
+    50,
+    51
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:53",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-09-30T00:14:34Z",
+    "2026-09-30T00:14:34Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:53"
+   ],
+   "process": "proc:nano-sigec-m1c-converged-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:54",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-30T00:27:14Z",
+    "2026-09-30T00:27:14Z"
+   ],
+   "before": [
+    "rec:53"
+   ],
+   "after": [
+    "rec:54"
+   ],
+   "process": "proc:nano-sigec-m1c-converged-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    53
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:55",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-30T00:29:11Z",
+    "2026-09-30T00:29:11Z"
+   ],
+   "before": [
+    "rec:53",
+    "rec:54"
+   ],
+   "after": [
+    "rec:55"
+   ],
+   "process": "proc:nano-sigec-m1c-converged-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    53,
+    54
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:56",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-09-30T03:30:11Z",
+    "2026-09-30T03:30:11Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:56"
+   ],
+   "process": "proc:p3-sigec-design-study-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:57",
+   "kind": "analysis_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-30T03:35:33Z",
+    "2026-09-30T03:35:33Z"
+   ],
+   "before": [
+    "rec:56"
+   ],
+   "after": [
+    "rec:57"
+   ],
+   "process": "proc:p3-sigec-design-study-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [
+    56
+   ],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:58",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-09-30T04:28:26Z",
+    "2026-09-30T04:28:26Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:58"
+   ],
+   "process": "proc:sigec-small-sic-md-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:59",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-30T05:51:59Z",
+    "2026-09-30T05:51:59Z"
+   ],
+   "before": [
+    "rec:58"
+   ],
+   "after": [
+    "rec:59"
+   ],
+   "process": "proc:sigec-small-sic-md-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    58
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:60",
+   "kind": "gate_failure",
+   "clock": "campaign",
+   "window": [
+    "2026-09-30T05:54:05Z",
+    "2026-09-30T05:54:05Z"
+   ],
+   "before": [
+    "rec:58",
+    "rec:59"
+   ],
+   "after": [
+    "rec:60"
+   ],
+   "process": "proc:sigec-small-sic-md-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    58,
+    59
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:61",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-30T05:54:05Z",
+    "2026-09-30T05:54:05Z"
+   ],
+   "before": [
+    "rec:58",
+    "rec:59",
+    "rec:60"
+   ],
+   "after": [
+    "rec:61"
+   ],
+   "process": "proc:sigec-small-sic-md-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [
+    58,
+    59
+   ],
+   "implicit_inputs": [
+    60
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:62",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-09-30T11:20:10Z",
+    "2026-09-30T11:20:10Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:62"
+   ],
+   "process": "proc:sigec-si-zone-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:63",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-09-30T11:52:13Z",
+    "2026-09-30T11:52:13Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:63"
+   ],
+   "process": "proc:p1-head-to-head-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:64",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-09-30T11:53:32Z",
+    "2026-09-30T11:53:32Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:64"
+   ],
+   "process": "proc:p3-mace-hidden-subset-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:65",
+   "kind": "design",
+   "clock": "campaign",
+   "window": [
+    "2026-09-30T11:53:32Z",
+    "2026-09-30T11:53:32Z"
+   ],
+   "before": [
+    "rec:64"
+   ],
+   "after": [
+    "rec:65"
+   ],
+   "process": "proc:p3-mace-hidden-subset-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    64
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:66",
+   "kind": "deviation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-30T11:57:24Z",
+    "2026-09-30T11:57:24Z"
+   ],
+   "before": [
+    "rec:63"
+   ],
+   "after": [
+    "rec:66"
+   ],
+   "process": "proc:p1-head-to-head-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    63
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:67",
+   "kind": "commit",
+   "clock": "campaign",
+   "window": [
+    "2026-09-30T13:08:16Z",
+    "2026-09-30T13:08:16Z"
+   ],
+   "before": [
+    "rec:63",
+    "rec:66"
+   ],
+   "after": [
+    "rec:67"
+   ],
+   "process": "proc:p1-head-to-head-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    63,
+    66
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:68",
+   "kind": "observation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-30T13:23:36Z",
+    "2026-09-30T13:23:36Z"
+   ],
+   "before": [
+    "rec:64",
+    "rec:65"
+   ],
+   "after": [
+    "rec:68"
+   ],
+   "process": "proc:p3-mace-hidden-subset-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    64,
+    65
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:69",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-09-30T22:16:31Z",
+    "2026-09-30T22:16:31Z"
+   ],
+   "before": [
+    "rec:62"
+   ],
+   "after": [
+    "rec:69"
+   ],
+   "process": "proc:sigec-si-zone-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    62
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:70",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-09-30T22:17:15Z",
+    "2026-09-30T22:17:15Z"
+   ],
+   "before": [
+    "rec:62",
+    "rec:69"
+   ],
+   "after": [
+    "rec:70"
+   ],
+   "process": "proc:sigec-si-zone-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    62,
+    69
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:71",
+   "kind": "observation",
+   "clock": "campaign",
+   "window": [
+    "2026-10-01T00:23:00Z",
+    "2026-10-01T00:23:00Z"
+   ],
+   "before": [
+    "rec:62",
+    "rec:69",
+    "rec:70"
+   ],
+   "after": [
+    "rec:71"
+   ],
+   "process": "proc:sigec-si-zone-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    62,
+    69,
+    70
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:72",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-10-01T00:23:01Z",
+    "2026-10-01T00:23:01Z"
+   ],
+   "before": [
+    "rec:64",
+    "rec:65",
+    "rec:68"
+   ],
+   "after": [
+    "rec:72"
+   ],
+   "process": "proc:p3-mace-hidden-subset-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    64,
+    65,
+    68
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:73",
+   "kind": "analysis",
+   "clock": "campaign",
+   "window": [
+    "2026-10-01T00:26:22Z",
+    "2026-10-01T00:26:22Z"
+   ],
+   "before": [
+    "rec:64",
+    "rec:65",
+    "rec:68",
+    "rec:72"
+   ],
+   "after": [
+    "rec:73"
+   ],
+   "process": "proc:p3-mace-hidden-subset-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    64,
+    65,
+    68,
+    72
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:74",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-10-01T00:43:28Z",
+    "2026-10-01T00:43:28Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:74"
+   ],
+   "process": "proc:sigec-light-dopants-2026-10-01",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:75",
+   "kind": "analysis",
+   "clock": "campaign",
+   "window": [
+    "2026-10-01T00:46:01Z",
+    "2026-10-01T00:46:01Z"
+   ],
+   "before": [
+    "rec:74"
+   ],
+   "after": [
+    "rec:75"
+   ],
+   "process": "proc:sigec-light-dopants-2026-10-01",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [
+    74
+   ],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:76",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-10-01T00:46:01Z",
+    "2026-10-01T00:46:01Z"
+   ],
+   "before": [
+    "rec:74",
+    "rec:75"
+   ],
+   "after": [
+    "rec:76"
+   ],
+   "process": "proc:sigec-light-dopants-2026-10-01",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    74,
+    75
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:77",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-10-01T00:46:01Z",
+    "2026-10-01T00:46:01Z"
+   ],
+   "before": [
+    "rec:58",
+    "rec:59",
+    "rec:60",
+    "rec:61"
+   ],
+   "after": [
+    "rec:77"
+   ],
+   "process": "proc:sigec-small-sic-md-2026-09-30",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    58,
+    59,
+    60,
+    61
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:78",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-10-01T04:15:30Z",
+    "2026-10-01T04:15:30Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:78"
+   ],
+   "process": "proc:sigec-small-sic-md-x03-2026-10-01",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:79",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-10-01T11:04:26Z",
+    "2026-10-01T11:04:26Z"
+   ],
+   "before": [
+    "rec:78"
+   ],
+   "after": [
+    "rec:79"
+   ],
+   "process": "proc:sigec-small-sic-md-x03-2026-10-01",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    78
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:80",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-10-01T11:04:41Z",
+    "2026-10-01T11:04:41Z"
+   ],
+   "before": [
+    "rec:78",
+    "rec:79"
+   ],
+   "after": [
+    "rec:80"
+   ],
+   "process": "proc:sigec-small-sic-md-x03-2026-10-01",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [
+    78,
+    79
+   ],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:81",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-10-01T13:30:44Z",
+    "2026-10-01T13:30:44Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:81"
+   ],
+   "process": "proc:phase-c-detector-v2-2026-10-01",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:82",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-10-01T13:53:52Z",
+    "2026-10-01T13:53:52Z"
+   ],
+   "before": [
+    "rec:81"
+   ],
+   "after": [
+    "rec:82"
+   ],
+   "process": "proc:phase-c-detector-v2-2026-10-01",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    81
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:83",
+   "kind": "deviation",
+   "clock": "campaign",
+   "window": [
+    "2026-10-01T13:54:30Z",
+    "2026-10-01T13:54:30Z"
+   ],
+   "before": [
+    "rec:81",
+    "rec:82"
+   ],
+   "after": [
+    "rec:83"
+   ],
+   "process": "proc:phase-c-detector-v2-2026-10-01",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    81,
+    82
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:84",
+   "kind": "commitment",
+   "clock": "campaign",
+   "window": [
+    "2026-10-01T13:55:59Z",
+    "2026-10-01T13:55:59Z"
+   ],
+   "before": [
+    "rec:81",
+    "rec:82",
+    "rec:83"
+   ],
+   "after": [
+    "rec:84"
+   ],
+   "process": "proc:phase-c-detector-v2-2026-10-01",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    81,
+    82,
+    83
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:85",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-10-03T05:22:59Z",
+    "2026-10-03T05:22:59Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:85"
+   ],
+   "process": "proc:gpumd-sizefree-kappa-2026-10-02",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:86",
+   "kind": "deviation",
+   "clock": "campaign",
+   "window": [
+    "2026-10-03T05:27:19Z",
+    "2026-10-03T05:27:19Z"
+   ],
+   "before": [
+    "rec:85"
+   ],
+   "after": [
+    "rec:86"
+   ],
+   "process": "proc:gpumd-sizefree-kappa-2026-10-02",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    85
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:87",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-10-04T05:39:14Z",
+    "2026-10-04T05:39:14Z"
+   ],
+   "before": [
+    "rec:85",
+    "rec:86"
+   ],
+   "after": [
+    "rec:87"
+   ],
+   "process": "proc:gpumd-sizefree-kappa-2026-10-02",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    85,
+    86
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:88",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-10-04T05:39:17Z",
+    "2026-10-04T05:39:17Z"
+   ],
+   "before": [
+    "rec:85",
+    "rec:86",
+    "rec:87"
+   ],
+   "after": [
+    "rec:88"
+   ],
+   "process": "proc:gpumd-sizefree-kappa-2026-10-02",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    85,
+    86,
+    87
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:89",
+   "kind": "analysis",
+   "clock": "campaign",
+   "window": [
+    "2026-10-04T05:40:05Z",
+    "2026-10-04T05:40:05Z"
+   ],
+   "before": [
+    "rec:85",
+    "rec:86",
+    "rec:87",
+    "rec:88"
+   ],
+   "after": [
+    "rec:89"
+   ],
+   "process": "proc:gpumd-sizefree-kappa-2026-10-02",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [
+    85
+   ],
+   "implicit_inputs": [
+    86,
+    87,
+    88
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:90",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-10-04T05:40:05Z",
+    "2026-10-04T05:40:05Z"
+   ],
+   "before": [
+    "rec:87",
+    "rec:88",
+    "rec:89",
+    "rec:85",
+    "rec:86"
+   ],
+   "after": [
+    "rec:90"
+   ],
+   "process": "proc:gpumd-sizefree-kappa-2026-10-02",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [
+    87,
+    88,
+    89
+   ],
+   "implicit_inputs": [
+    85,
+    86
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:91",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-10-04T07:11:18Z",
+    "2026-10-04T07:11:18Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:91"
+   ],
+   "process": "proc:gpumd-sizefree-check300-2026-10-04",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:92",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-10-04T07:15:18Z",
+    "2026-10-04T07:15:18Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:92"
+   ],
+   "process": "proc:db-version-bump-starrydata-2026-10-04",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:93",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-10-04T07:16:27Z",
+    "2026-10-04T07:16:27Z"
+   ],
+   "before": [
+    "rec:92"
+   ],
+   "after": [
+    "rec:93"
+   ],
+   "process": "proc:db-version-bump-starrydata-2026-10-04",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    92
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:94",
+   "kind": "analysis",
+   "clock": "campaign",
+   "window": [
+    "2026-10-04T07:16:48Z",
+    "2026-10-04T07:16:48Z"
+   ],
+   "before": [
+    "rec:92",
+    "rec:93"
+   ],
+   "after": [
+    "rec:94"
+   ],
+   "process": "proc:db-version-bump-starrydata-2026-10-04",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [
+    92
+   ],
+   "implicit_inputs": [
+    93
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:95",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-10-04T07:16:48Z",
+    "2026-10-04T07:16:48Z"
+   ],
+   "before": [
+    "rec:93",
+    "rec:94",
+    "rec:92"
+   ],
+   "after": [
+    "rec:95"
+   ],
+   "process": "proc:db-version-bump-starrydata-2026-10-04",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [
+    93,
+    94
+   ],
+   "implicit_inputs": [
+    92
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:96",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-10-04T08:10:40Z",
+    "2026-10-04T08:10:40Z"
+   ],
+   "before": [
+    "rec:91"
+   ],
+   "after": [
+    "rec:96"
+   ],
+   "process": "proc:gpumd-sizefree-check300-2026-10-04",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    91
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:97",
+   "kind": "analysis",
+   "clock": "campaign",
+   "window": [
+    "2026-10-04T08:10:54Z",
+    "2026-10-04T08:10:54Z"
+   ],
+   "before": [
+    "rec:91",
+    "rec:96"
+   ],
+   "after": [
+    "rec:97"
+   ],
+   "process": "proc:gpumd-sizefree-check300-2026-10-04",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [
+    91
+   ],
+   "implicit_inputs": [
+    96
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:98",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-10-04T08:10:54Z",
+    "2026-10-04T08:10:54Z"
+   ],
+   "before": [
+    "rec:90",
+    "rec:96",
+    "rec:97",
+    "rec:91"
+   ],
+   "after": [
+    "rec:98"
+   ],
+   "process": "proc:gpumd-sizefree-check300-2026-10-04",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [
+    90,
+    96,
+    97
+   ],
+   "implicit_inputs": [
+    91
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:99",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-10-04T10:44:11Z",
+    "2026-10-04T10:44:11Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:99"
+   ],
+   "process": "proc:gpumd-sizefree-level300-2026-10-04",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:100",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-10-06T16:48:57Z",
+    "2026-10-06T16:48:57Z"
+   ],
+   "before": [
+    "rec:99"
+   ],
+   "after": [
+    "rec:100"
+   ],
+   "process": "proc:gpumd-sizefree-level300-2026-10-04",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    99
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:101",
+   "kind": "analysis",
+   "clock": "campaign",
+   "window": [
+    "2026-10-06T16:49:23Z",
+    "2026-10-06T16:49:23Z"
+   ],
+   "before": [
+    "rec:99",
+    "rec:100"
+   ],
+   "after": [
+    "rec:101"
+   ],
+   "process": "proc:gpumd-sizefree-level300-2026-10-04",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [
+    99
+   ],
+   "implicit_inputs": [
+    100
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:102",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-10-06T16:49:23Z",
+    "2026-10-06T16:49:23Z"
+   ],
+   "before": [
+    "rec:98",
+    "rec:100",
+    "rec:101",
+    "rec:99"
+   ],
+   "after": [
+    "rec:102"
+   ],
+   "process": "proc:gpumd-sizefree-level300-2026-10-04",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [
+    98,
+    100,
+    101
+   ],
+   "implicit_inputs": [
+    99
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:103",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-10-06T17:06:11Z",
+    "2026-10-06T17:06:11Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:103"
+   ],
+   "process": "proc:sigec-small-sic-md-r30-2026-10-06",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:104",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-10-06T18:37:37Z",
+    "2026-10-06T18:37:37Z"
+   ],
+   "before": [
+    "rec:103"
+   ],
+   "after": [
+    "rec:104"
+   ],
+   "process": "proc:sigec-small-sic-md-r30-2026-10-06",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    103
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:105",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-10-06T18:38:14Z",
+    "2026-10-06T18:38:14Z"
+   ],
+   "before": [
+    "rec:103",
+    "rec:104"
+   ],
+   "after": [
+    "rec:105"
+   ],
+   "process": "proc:sigec-small-sic-md-r30-2026-10-06",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [
+    103,
+    104
+   ],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:106",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-10-07T05:41:30Z",
+    "2026-10-07T05:41:30Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:106"
+   ],
+   "process": "proc:sigec-small-sic-md-r50-2026-10-07",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:107",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-10-07T05:44:30Z",
+    "2026-10-07T05:44:30Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:107"
+   ],
+   "process": "proc:gpumd-gk300-level-2026-10-07",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:108",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-10-08T15:03:51Z",
+    "2026-10-08T15:03:51Z"
+   ],
+   "before": [
+    "rec:106"
+   ],
+   "after": [
+    "rec:108"
+   ],
+   "process": "proc:sigec-small-sic-md-r50-2026-10-07",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    106
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:109",
+   "kind": "gate_failure",
+   "clock": "campaign",
+   "window": [
+    "2026-10-08T15:04:18Z",
+    "2026-10-08T15:04:18Z"
+   ],
+   "before": [
+    "rec:106",
+    "rec:108"
+   ],
+   "after": [
+    "rec:109"
+   ],
+   "process": "proc:sigec-small-sic-md-r50-2026-10-07",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    106,
+    108
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:110",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-10-08T15:04:18Z",
+    "2026-10-08T15:04:18Z"
+   ],
+   "before": [
+    "rec:106",
+    "rec:108",
+    "rec:109"
+   ],
+   "after": [
+    "rec:110"
+   ],
+   "process": "proc:sigec-small-sic-md-r50-2026-10-07",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [
+    106,
+    108
+   ],
+   "implicit_inputs": [
+    109
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:111",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-10-08T15:04:38Z",
+    "2026-10-08T15:04:38Z"
+   ],
+   "before": [
+    "rec:107"
+   ],
+   "after": [
+    "rec:111"
+   ],
+   "process": "proc:gpumd-gk300-level-2026-10-07",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    107
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:112",
+   "kind": "deviation",
+   "clock": "campaign",
+   "window": [
+    "2026-10-08T15:04:59Z",
+    "2026-10-08T15:04:59Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:112"
+   ],
+   "process": "proc:gk300",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:113",
+   "kind": "batch_result",
+   "clock": "campaign",
+   "window": [
+    "2026-10-09T03:25:04Z",
+    "2026-10-09T03:25:04Z"
+   ],
+   "before": [
+    "rec:107",
+    "rec:111"
+   ],
+   "after": [
+    "rec:113"
+   ],
+   "process": "proc:gpumd-gk300-level-2026-10-07",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [
+    107,
+    111
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:114",
+   "kind": "analysis",
+   "clock": "campaign",
+   "window": [
+    "2026-10-09T03:25:20Z",
+    "2026-10-09T03:25:20Z"
+   ],
+   "before": [
+    "rec:107",
+    "rec:111",
+    "rec:113"
+   ],
+   "after": [
+    "rec:114"
+   ],
+   "process": "proc:gpumd-gk300-level-2026-10-07",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [
+    107
+   ],
+   "implicit_inputs": [
+    111,
+    113
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:115",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-10-09T03:25:20Z",
+    "2026-10-09T03:25:20Z"
+   ],
+   "before": [
+    "rec:102",
+    "rec:111",
+    "rec:113",
+    "rec:114",
+    "rec:107"
+   ],
+   "after": [
+    "rec:115"
+   ],
+   "process": "proc:gpumd-gk300-level-2026-10-07",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [
+    102,
+    111,
+    113,
+    114
+   ],
+   "implicit_inputs": [
+    107
+   ],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:116",
+   "kind": "preregistration",
+   "clock": "campaign",
+   "window": [
+    "2026-10-09T16:45:31Z",
+    "2026-10-09T16:45:31Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:116"
+   ],
+   "process": "proc:p3-replication-reserve-2026-10-09",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:117",
+   "kind": "analysis",
+   "clock": "campaign",
+   "window": [
+    "2026-10-09T16:47:40Z",
+    "2026-10-09T16:47:40Z"
+   ],
+   "before": [
+    "rec:116"
+   ],
+   "after": [
+    "rec:117"
+   ],
+   "process": "proc:p3-replication-reserve-2026-10-09",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [
+    116
+   ],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:118",
+   "kind": "commitment",
+   "clock": "campaign",
+   "window": [
+    "2026-10-09T16:47:40Z",
+    "2026-10-09T16:47:40Z"
+   ],
+   "before": [],
+   "after": [
+    "rec:118"
+   ],
+   "process": "proc:criteria-exceptional-label",
+   "source": "src:agent",
+   "labels": [],
+   "explicit_inputs": [],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:119",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-10-09T16:47:40Z",
+    "2026-10-09T16:47:40Z"
+   ],
+   "before": [
+    "rec:19",
+    "rec:26",
+    "rec:27",
+    "rec:28",
+    "rec:29",
+    "rec:118"
+   ],
+   "after": [
+    "rec:119"
+   ],
+   "process": "proc:retro-exceptional-ge-corner",
+   "source": "src:agent",
+   "labels": [
+    "exceptional"
+   ],
+   "explicit_inputs": [
+    19,
+    26,
+    27,
+    28,
+    29,
+    118
+   ],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:120",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-10-09T16:47:40Z",
+    "2026-10-09T16:47:40Z"
+   ],
+   "before": [
+    "rec:9",
+    "rec:10",
+    "rec:11",
+    "rec:12",
+    "rec:13",
+    "rec:25",
+    "rec:118"
+   ],
+   "after": [
+    "rec:120"
+   ],
+   "process": "proc:retro-exceptional-amorphous-probes",
+   "source": "src:agent",
+   "labels": [
+    "exceptional"
+   ],
+   "explicit_inputs": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    25,
+    118
+   ],
+   "implicit_inputs": [],
+   "forward_refs": []
+  },
+  {
+   "id": "ev:121",
+   "kind": "shard_operation",
+   "clock": "campaign",
+   "window": [
+    "2026-10-09T16:47:40Z",
+    "2026-10-09T16:47:40Z"
+   ],
+   "before": [
+    "rec:62",
+    "rec:69",
+    "rec:70",
+    "rec:118"
+   ],
+   "after": [
+    "rec:121"
+   ],
+   "process": "proc:retro-exceptional-si-rich-zone",
+   "source": "src:agent",
+   "labels": [
+    "exceptional"
+   ],
+   "explicit_inputs": [
+    62,
+    69,
+    70,
+    118
+   ],
+   "implicit_inputs": [],
+   "forward_refs": []
+  }
+ ]
+}

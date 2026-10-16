@@ -1,0 +1,117 @@
+[
+  {
+    "paperId": "f82f1fe002118ef3b45370a7f87c22a4c2960782",
+    "externalIds": {
+      "DOI": "10.1109/CCUBE66458.2025.11340096",
+      "CorpusId": 284922971
+    },
+    "title": "SRIM-Based Simulation of Ion Implantation in Silicon and Germanium at Different Tilt Angles",
+    "venue": "2025 International Conference on Circuits, Controls and Communications (CCUBE)",
+    "year": 2025,
+    "citationCount": 0
+  },
+  {
+    "paperId": "86ba728f73153c96b13383660a281148ba47d6ab",
+    "externalIds": {
+      "DOI": "10.25159/3005-2602/15610",
+      "CorpusId": 274012736
+    },
+    "title": "Atomistic Simulation of Primary Radiation Damage Profiles in Fluorine-Doped Tin Oxide Thin Film Target Using SRIM Code",
+    "venue": "Nano-Horizons: Journal of Nanosciences and Nanotechnologies",
+    "year": 2024,
+    "citationCount": 1
+  },
+  {
+    "paperId": "c5906bf6adb09216521f94189ff216cbafa9509e",
+    "externalIds": {
+      "DOI": "10.1109/jeds.2022.3157741",
+      "CorpusId": 247334653
+    },
+    "title": "Self-Aligned Transparent-Gate ITO/Germanium Nanospheres/SiO2/SiGe-Nanosheets photoMOSFETs on Silicon Nitride Platform",
+    "venue": "IEEE Journal of the Electron Devices Society",
+    "year": 2022,
+    "citationCount": 0
+  },
+  {
+    "paperId": "d1285bdfa7d70c12cadbbc1ad806b631441c2546",
+    "externalIds": {
+      "MAG": "2766354989",
+      "DOI": "10.1088/1361-6463/aa94a0",
+      "CorpusId": 125275518
+    },
+    "title": "Molecular dynamics investigation of the thermal conductivity of ternary silicon\u2013germanium\u2013tin alloys",
+    "venue": "",
+    "year": 2017,
+    "citationCount": 12
+  },
+  {
+    "paperId": "77123cf8cb9cdf37d9b21cba850d340547a468c8",
+    "externalIds": {
+      "DOI": "10.4313/jkem.2018.31.6.377",
+      "CorpusId": 290154190
+    },
+    "title": "A Study of Dopant Distribution in SiGe Using Ion Implantation and Thermal Annealing",
+    "venue": "Journal of Korean Institute of Electrical and Electronic Materials Engineers",
+    "year": 2018,
+    "citationCount": 0
+  },
+  {
+    "paperId": "c27fbbc8d22c5b64354aaa85c4933e808979920f",
+    "externalIds": {
+      "MAG": "2328915698",
+      "DOI": "10.1080/03772063.1997.11415977",
+      "CorpusId": 112319371
+    },
+    "title": "Strained Silicon-SiGe Devices using Germanium Implantation",
+    "venue": "",
+    "year": 1997,
+    "citationCount": 2
+  },
+  {
+    "paperId": "1c284f235c5d7f5af202c25fa566d63d9992446b",
+    "externalIds": {
+      "MAG": "1980754110",
+      "DOI": "10.1109/VTSA.2008.4530830",
+      "CorpusId": 17561204
+    },
+    "title": "Realization of Silicon-Germanium-Tin (SiGeSn) Source/Drain Stressors by Sn implant and Solid Phase Epitaxy for strain engineering in SiGe channel P-MOSFETs",
+    "venue": "International Symposium on VLSI Technology, Systems, and Applications",
+    "year": 2008,
+    "citationCount": 1
+  },
+  {
+    "paperId": "a27b610a9f2c9c59b6c01ba1695365b10eaebce2",
+    "externalIds": {
+      "MAG": "1973760242",
+      "DOI": "10.1109/IEDM.2007.4418882",
+      "CorpusId": 19707661
+    },
+    "title": "Silicon-Germanium-Tin (SiGeSn) Source and Drain Stressors formed by Sn Implant and Laser Annealing for Strained Silicon-Germanium Channel P-MOSFETs",
+    "venue": "2007 IEEE International Electron Devices Meeting",
+    "year": 2007,
+    "citationCount": 7
+  },
+  {
+    "paperId": "bb27312f6f6921d92db38010ffe5efdc3e0bf8a4",
+    "externalIds": {
+      "MAG": "2189144615",
+      "CorpusId": 31703122
+    },
+    "title": "CALIBRATION FOR THE MONTE CARLO SIMULATION OF ION IMPLANTATION IN RELAXED SIGE",
+    "venue": "",
+    "year": 2004,
+    "citationCount": 0
+  },
+  {
+    "paperId": "a08487291691fcb424424c5cbc0ec6c390e74a86",
+    "externalIds": {
+      "MAG": "146323961",
+      "DOI": "10.1007/978-3-7091-0624-2_40",
+      "CorpusId": 37782295
+    },
+    "title": "Monte Carlo Simulation of Ion Implantation in Silicon-Germanium Alloys",
+    "venue": "",
+    "year": 2004,
+    "citationCount": 1
+  }
+]

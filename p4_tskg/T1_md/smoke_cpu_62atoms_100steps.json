@@ -1,0 +1,265 @@
+{
+ "args": {
+  "x": 0.12,
+  "nvac": 2,
+  "T": 600,
+  "steps": 100,
+  "every": 20,
+  "rep": 2,
+  "seed": 1,
+  "dt_fs": 2.0,
+  "device": "cpu",
+  "dtype": "float64",
+  "model": "medium",
+  "out": "/tmp/t1_smoke.json"
+ },
+ "n_atoms": 62,
+ "n_sn": 8,
+ "a0_A": 5.75772,
+ "cutoff_A": 3.05,
+ "wall_s": 103.53364944458008,
+ "events": [
+  {
+   "t_ps": 0.0,
+   "kind": "reaction",
+   "name": "Sn-V pairing",
+   "atoms": [
+    49
+   ],
+   "reaction": [
+    [
+     [
+      1,
+      "Sn_Ge"
+     ],
+     [
+      1,
+      "V_Ge"
+     ]
+    ],
+    [
+     [
+      1,
+      "{Sn_Ge,V_Ge}"
+     ]
+    ]
+   ]
+  },
+  {
+   "t_ps": 0.0,
+   "kind": "measurement",
+   "name": "Sn-Sn pairing",
+   "atoms": [
+    55,
+    58
+   ],
+   "reaction": null
+  },
+  {
+   "t_ps": 0.12,
+   "kind": "reaction",
+   "name": "Sn-V pairing",
+   "atoms": [
+    58
+   ],
+   "reaction": [
+    [
+     [
+      1,
+      "Sn_Ge"
+     ],
+     [
+      1,
+      "V_Ge"
+     ]
+    ],
+    [
+     [
+      1,
+      "{Sn_Ge,V_Ge}"
+     ]
+    ]
+   ]
+  },
+  {
+   "t_ps": 0.12,
+   "kind": "reaction",
+   "name": "Sn-V pairing",
+   "atoms": [
+    55
+   ],
+   "reaction": [
+    [
+     [
+      1,
+      "Sn_Ge"
+     ],
+     [
+      1,
+      "V_Ge"
+     ]
+    ],
+    [
+     [
+      1,
+      "{Sn_Ge,V_Ge}"
+     ]
+    ]
+   ]
+  },
+  {
+   "t_ps": 0.12,
+   "kind": "transition",
+   "name": "vacancy hop",
+   "atoms": [
+    3,
+    24,
+    55,
+    58
+   ]
+  },
+  {
+   "t_ps": 0.2,
+   "kind": "reaction",
+   "name": "Sn-V pairing",
+   "atoms": [
+    2
+   ],
+   "reaction": [
+    [
+     [
+      1,
+      "Sn_Ge"
+     ],
+     [
+      1,
+      "V_Ge"
+     ]
+    ],
+    [
+     [
+      1,
+      "{Sn_Ge,V_Ge}"
+     ]
+    ]
+   ]
+  },
+  {
+   "t_ps": 0.2,
+   "kind": "reaction",
+   "name": "Sn-V separation",
+   "atoms": [
+    55
+   ],
+   "reaction": [
+    [
+     [
+      1,
+      "{Sn_Ge,V_Ge}"
+     ]
+    ],
+    [
+     [
+      1,
+      "Sn_Ge"
+     ],
+     [
+      1,
+      "V_Ge"
+     ]
+    ]
+   ]
+  },
+  {
+   "t_ps": 0.2,
+   "kind": "reaction",
+   "name": "Sn-Sn pairing",
+   "atoms": [
+    55,
+    58
+   ],
+   "reaction": [
+    [
+     [
+      1,
+      "{Sn_Ge,V_Ge}"
+     ],
+     [
+      1,
+      "Sn_Ge"
+     ]
+    ],
+    [
+     [
+      1,
+      "{Sn_Ge*2,V_Ge}"
+     ]
+    ]
+   ]
+  },
+  {
+   "t_ps": 0.2,
+   "kind": "transition",
+   "name": "vacancy hop",
+   "atoms": [
+    2,
+    5,
+    30,
+    39,
+    45,
+    51,
+    55
+   ]
+  }
+ ],
+ "series": [
+  {
+   "t_ps": 0.0,
+   "n_snv": 1,
+   "n_snsn": 1,
+   "n_under": 8,
+   "T_K": 523.6362213410887,
+   "epot_eV_atom": -4.346431319230141
+  },
+  {
+   "t_ps": 0.04,
+   "n_snv": 1,
+   "n_snsn": 1,
+   "n_under": 8,
+   "T_K": 460.65670318604583,
+   "epot_eV_atom": -4.340764027634178
+  },
+  {
+   "t_ps": 0.08,
+   "n_snv": 1,
+   "n_snsn": 1,
+   "n_under": 8,
+   "T_K": 679.3257970619287,
+   "epot_eV_atom": -4.365132623749927
+  },
+  {
+   "t_ps": 0.12,
+   "n_snv": 3,
+   "n_snsn": 0,
+   "n_under": 8,
+   "T_K": 541.3275613877365,
+   "epot_eV_atom": -4.357222370322397
+  },
+  {
+   "t_ps": 0.16,
+   "n_snv": 3,
+   "n_snsn": 0,
+   "n_under": 8,
+   "T_K": 586.4056314689607,
+   "epot_eV_atom": -4.370670261637327
+  },
+  {
+   "t_ps": 0.2,
+   "n_snv": 3,
+   "n_snsn": 1,
+   "n_under": 3,
+   "T_K": 517.724479783307,
+   "epot_eV_atom": -4.362377507969703
+  }
+ ]
+}

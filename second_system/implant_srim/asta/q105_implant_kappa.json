@@ -1,0 +1,143 @@
+[
+  {
+    "paperId": "85caa9bbf0f8d5ab61705332203535ac7344e9be",
+    "externalIds": {
+      "MAG": "2083751454",
+      "DOI": "10.1016/S0921-4526(03)00320-X",
+      "CorpusId": 122749476
+    },
+    "title": "Raman scattering and photoluminescence studies on O + implanted silicon",
+    "venue": "",
+    "year": 2003,
+    "citationCount": 14
+  },
+  {
+    "paperId": "e3e40d893301c96fac1cf13acd893fe7100b5456",
+    "externalIds": {
+      "DOI": "10.26565/2312-4334-2025-4-51",
+      "CorpusId": 284561036
+    },
+    "title": "Local Variation of Scattering Light Intensity in Manganese Ion Implanted Silicon Single Crystals",
+    "venue": "East European Journal of Physics",
+    "year": 2025,
+    "citationCount": 0
+  },
+  {
+    "paperId": "bbd72ef5159f37b23195e16a18f93c6cd845af2b",
+    "externalIds": {
+      "MAG": "2891094185",
+      "DOI": "10.1103/PHYSREVMATERIALS.2.095001",
+      "CorpusId": 53446811
+    },
+    "title": "Phonon scattering effects from point and extended defects on thermal conductivity studied via ion irradiation of crystals with self-impurities",
+    "venue": "PHYSICAL REVIEW MATERIALS",
+    "year": 2018,
+    "citationCount": 38
+  },
+  {
+    "paperId": "66cbfeea06253c9ee593cd71926bd7f4791388d5",
+    "externalIds": {
+      "DOI": "10.1109/EuroSimE69483.2026.11511992",
+      "CorpusId": 288187437
+    },
+    "title": "Efficient Space Charge Current Injection in Silicon Implanted Fe-doped \u03b2-Ga2O3 Crystals Resulting in Extremely Low Thermal Breakdown Field",
+    "venue": "International Conference on Thermal, Mechanial and Multi-Physics Simulation and Experiments in Micro-Electronics and Micro-Systems",
+    "year": 2026,
+    "citationCount": 0
+  },
+  {
+    "paperId": "e25aae8c5b07fa516e2cdd4b84bdd55a44e17307",
+    "externalIds": {
+      "DOI": "10.1063/5.0094876",
+      "CorpusId": 251702176
+    },
+    "title": "Measuring sub-surface spatially varying thermal conductivity of silicon implanted with krypton",
+    "venue": "Journal of Applied Physics",
+    "year": 2022,
+    "citationCount": 20
+  },
+  {
+    "paperId": "1b0bc65cf64b70c30773675fcd365b3e34d8868a",
+    "externalIds": {
+      "ArXiv": "1705.06845",
+      "MAG": "2617918103",
+      "PubMedCentral": "5490267",
+      "DOI": "10.1038/ncomms15919",
+      "CorpusId": 20742011,
+      "PubMed": "28653663"
+    },
+    "title": "Engineering the thermal conductivity along an individual silicon nanowire by selective helium ion irradiation",
+    "venue": "Nature Communications",
+    "year": 2017,
+    "citationCount": 89
+  },
+  {
+    "paperId": "fcaa42440e07b8c0aee8e01a24e20b01735f6ed0",
+    "externalIds": {
+      "DOI": "10.1063/5.0297824",
+      "CorpusId": 283533207
+    },
+    "title": "Thermal conductivity of cubic silicon carbide single crystals heavily doped by nitrogen",
+    "venue": "Journal of Applied Physics",
+    "year": 2025,
+    "citationCount": 3
+  },
+  {
+    "paperId": "72326b9054501b8da2965dba0fca331426583900",
+    "externalIds": {
+      "DOI": "10.3390/pr13092902",
+      "CorpusId": 281275644
+    },
+    "title": "Radiation-Induced Degradation Mechanisms in Silicon MEMS Under Coupled Thermal and Mechanical Fields",
+    "venue": "Processes",
+    "year": 2025,
+    "citationCount": 4
+  },
+  {
+    "paperId": "af046bf0cf3042dc1510650a305e7a12d409b632",
+    "externalIds": {
+      "PubMedCentral": "12609265",
+      "DOI": "10.3390/ma18215057",
+      "CorpusId": 282888369,
+      "PubMed": "41228015"
+    },
+    "title": "Non-Destructive Evaluation of Damage and Electricity Characteristics in 4H-SiC Induced by Ion Irradiation via Raman Spectroscopy",
+    "venue": "Materials",
+    "year": 2025,
+    "citationCount": 2
+  },
+  {
+    "paperId": "0ffd36c1dfd18ce471dab5b971a0075b5f6db6ca",
+    "externalIds": {
+      "MAG": "2460849692",
+      "DOI": "10.1007/978-3-642-82163-9_99",
+      "CorpusId": 137789471
+    },
+    "title": "Phonon Scattering in Phosphorous-Implanted Silicon",
+    "venue": "",
+    "year": 1984,
+    "citationCount": 0
+  },
+  {
+    "paperId": "88d28c348c6a345a87a71ce97c2c46628740e1b4",
+    "externalIds": {
+      "DOI": "10.1063/5.0325473",
+      "CorpusId": 290114791
+    },
+    "title": "Improving thermal boundary conductance for wafer-scale buffer-free GaN-on-SiC via ion-cutting and controllable annealing",
+    "venue": "Applied Physics Letters",
+    "year": 2026,
+    "citationCount": 0
+  },
+  {
+    "paperId": "0ee7243607307e300b7a1b28817ba6874495657d",
+    "externalIds": {
+      "DOI": "10.1063/5.0271003",
+      "CorpusId": 278838243
+    },
+    "title": "Thermal transport in ion-beam-exfoliated \u03b2-Ga2O3 nanomembranes",
+    "venue": "APL Materials",
+    "year": 2025,
+    "citationCount": 4
+  }
+]

@@ -1,0 +1,141 @@
+[
+  {
+    "paperId": "60eb6c7f26fdbac63a9ea62cec228ff95a78a1b9",
+    "externalIds": {
+      "DOI": "10.1063/5.0304780",
+      "CorpusId": 284560576
+    },
+    "title": "Hyperdoping SiGe with S using ion implantation and pulsed laser melting for infrared absorption and detection",
+    "venue": "Journal of Applied Physics",
+    "year": 2026,
+    "citationCount": 0
+  },
+  {
+    "paperId": "e604e28b76c36ae1327b802070ba87dcc1524c31",
+    "externalIds": {
+      "DOI": "10.1134/S1027451025701605",
+      "CorpusId": 284983120
+    },
+    "title": "Study of Combined Effect of Helium Ion Implantation and Pulsed Laser Radiation on the Structure and Microhardness of the Surface of V\u201310Ti\u20136Cr\u20130.05Zr\u20130.1Si Alloy",
+    "venue": "Journal of Surface Investigation X-ray Synchrotron and Neutron Techniques",
+    "year": 2025,
+    "citationCount": 0
+  },
+  {
+    "paperId": "0c460296aba2b1992f0258900dc658aa5f99b45b",
+    "externalIds": {
+      "ArXiv": "2304.10132",
+      "DOI": "10.1038/s43246-024-00486-4",
+      "CorpusId": 258236294
+    },
+    "title": "Activation of telecom emitters in silicon upon ion implantation and ns pulsed laser annealing",
+    "venue": "Communications Materials",
+    "year": 2023,
+    "citationCount": 19
+  },
+  {
+    "paperId": "c90bc288e9c9f845af21d9528bd77f0245caf22a",
+    "externalIds": {
+      "ArXiv": "2106.00946",
+      "MAG": "3128339326",
+      "DOI": "10.1149/2162-8777/abe2ee",
+      "CorpusId": 234087726
+    },
+    "title": "Dopant Redistribution and Activation in Ga Ion-Implanted High Ge Content SiGe by Explosive Crystallization during UV Nanosecond Pulsed Laser Annealing",
+    "venue": "ECS Journal of Solid State Science and Technology",
+    "year": 2021,
+    "citationCount": 5
+  },
+  {
+    "paperId": "8b0b4eb19540e676e1199b0f0a7c63da1b0e9e48",
+    "externalIds": {
+      "CorpusId": 269033497
+    },
+    "title": "Efficient activation of telecom emitters in silicon upon ns pulsed laser annealing",
+    "venue": "",
+    "year": 2023,
+    "citationCount": 2
+  },
+  {
+    "paperId": "2f9e612ee6ddb130b1da3908033d6b58b73b1b29",
+    "externalIds": {
+      "DOI": "10.1063/5.0190600",
+      "CorpusId": 267282895
+    },
+    "title": "Overcoming the doping limit in GaAs by ion implantation and pulsed laser melting",
+    "venue": "Journal of Applied Physics",
+    "year": 2024,
+    "citationCount": 9
+  },
+  {
+    "paperId": "0727101609f559b3b68d4c8204792e0be1b30203",
+    "externalIds": {
+      "MAG": "2896700744",
+      "DOI": "10.1109/LED.2018.2875751",
+      "CorpusId": 53772341
+    },
+    "title": "Low-Temperature Hybrid Dopant Activation Technique Using Pulsed Green Laser for Heavily-Doped n-Type SiGe Source/Drain",
+    "venue": "IEEE Electron Device Letters",
+    "year": 2018,
+    "citationCount": 6
+  },
+  {
+    "paperId": "0411a3b3c0c05827758226682651e2fe5ad77b6b",
+    "externalIds": {
+      "MAG": "2744027980",
+      "DOI": "10.23919/VLSIT.2017.7998176",
+      "CorpusId": 41971524
+    },
+    "title": "Sub-10\u22129 \u03a9\u00b7cm2 contact resistivity on p-SiGe achieved by Ga doping and nanosecond laser activation",
+    "venue": "Symposium on VLSI Technology",
+    "year": 2017,
+    "citationCount": 29
+  },
+  {
+    "paperId": "0b9612864991286cbb1225f0ec9ba6ea0701b130",
+    "externalIds": {
+      "MAG": "2998323763",
+      "DOI": "10.1016/j.apsusc.2019.145230",
+      "CorpusId": 214409714
+    },
+    "title": "p-type doping of Ge by Al ion implantation and pulsed laser melting",
+    "venue": "",
+    "year": 2020,
+    "citationCount": 9
+  },
+  {
+    "paperId": "8e511ac24e6fbb04253244b364662d9aa84ed2d9",
+    "externalIds": {
+      "MAG": "3000069705",
+      "DOI": "10.1016/j.apsusc.2020.145277",
+      "CorpusId": 212878201
+    },
+    "title": "Ex-situ doping of epitaxially grown Ge on Si by ion-implantation and pulsed laser melting",
+    "venue": "",
+    "year": 2020,
+    "citationCount": 4
+  },
+  {
+    "paperId": "a7914fbf11541cc81d9569be6e4f6fbc984bb150",
+    "externalIds": {
+      "DOI": "10.23919/IWJT52818.2021.9609361",
+      "CorpusId": 244272823
+    },
+    "title": "Stress relaxation and dopant activation in nsec laser annealed SiGe",
+    "venue": "International Workshop on Junction Technology",
+    "year": 2021,
+    "citationCount": 0
+  },
+  {
+    "paperId": "9cabef81ba044c678eebac69a6e9615598c2a861",
+    "externalIds": {
+      "MAG": "2800107886",
+      "DOI": "10.1063/1.5012512",
+      "CorpusId": 13755247
+    },
+    "title": "High level active n+ doping of strained germanium through co-implantation and nanosecond pulsed laser melting",
+    "venue": "",
+    "year": 2018,
+    "citationCount": 12
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "paperId": "a920c2c07a0511375ddcfecb605d3a0123b026ef",
+    "externalIds": {
+      "MAG": "2089866987",
+      "DOI": "10.1117/12.306237",
+      "CorpusId": 137454740
+    },
+    "title": "Optical characterization of carbon ion implantation into Si and SiGe alloys",
+    "venue": "Other Conferences",
+    "year": 1998,
+    "citationCount": 0
+  },
+  {
+    "paperId": "1502881e8adeed2411ede1d622400473ce116a0a",
+    "externalIds": {
+      "MAG": "2167214552",
+      "DOI": "10.1109/ICCEE.2009.180",
+      "CorpusId": 17535979
+    },
+    "title": "Effect of Implantation Defects and Carbon Incorporation on Si/SiGe Bipolar Characteristics",
+    "venue": "2009 Second International Conference on Computer and Electrical Engineering",
+    "year": 2009,
+    "citationCount": 1
+  },
+  {
+    "paperId": "95c6e9e1340a6dbc4a1a1bb84fabc1c60a639ab2",
+    "externalIds": {
+      "MAG": "2023904495",
+      "DOI": "10.1557/PROC-280-609",
+      "CorpusId": 95004901
+    },
+    "title": "Metastable SiC and SiGeC alloys by carbon implantation and solid phase epitaxy",
+    "venue": "",
+    "year": 1992,
+    "citationCount": 5
+  },
+  {
+    "paperId": "8509b6ee6ec63f1508754a45bee38617ab6bd139",
+    "externalIds": {
+      "MAG": "2082544144",
+      "DOI": "10.1016/J.MEE.2014.01.001",
+      "CorpusId": 137477490
+    },
+    "title": "Carbon redistribution and precipitation in high temperature ion-implanted strained Si/SiGe/Si multi-layered structures",
+    "venue": "",
+    "year": 2014,
+    "citationCount": 0
+  },
+  {
+    "paperId": "99f358cc42f76c57209b60f9c91fe295de951dfc",
+    "externalIds": {
+      "MAG": "2067327839",
+      "DOI": "10.1063/1.103888",
+      "CorpusId": 119104699
+    },
+    "title": "Characterization of SiGe/Si heterostructures formed by Ge+ and C+ implantation",
+    "venue": "",
+    "year": 1990,
+    "citationCount": 56
+  },
+  {
+    "paperId": "f39b54e40b9f17fcfd2d5ac757e9e85f53fe5b7d",
+    "externalIds": {
+      "MAG": "2029399528",
+      "DOI": "10.1063/1.119110",
+      "CorpusId": 14378011
+    },
+    "title": "Suppression of boron transient enhanced diffusion in SiGe heterojunction bipolar transistors by carbon incorporation",
+    "venue": "",
+    "year": 1997,
+    "citationCount": 55
+  },
+  {
+    "paperId": "22caea90df3c6de99568ad2b59f50b0223ea140a",
+    "externalIds": {
+      "MAG": "1977345839",
+      "DOI": "10.1063/1.117620",
+      "CorpusId": 120031249
+    },
+    "title": "Synthesis of SiGe and SiGeC alloys formed by Ge and C implantation",
+    "venue": "",
+    "year": 1996,
+    "citationCount": 15
+  },
+  {
+    "paperId": "c14d99b464e2a6e4e583120604ae74840aeb3e9d",
+    "externalIds": {
+      "MAG": "2171023381",
+      "DOI": "10.1109/IEDM.1996.553577",
+      "CorpusId": 27354548
+    },
+    "title": "Suppression of boron outdiffusion in SiGe HBTs by carbon incorporation",
+    "venue": "International Electron Devices Meeting. Technical Digest",
+    "year": 1996,
+    "citationCount": 57
+  },
+  {
+    "paperId": "05598c4f53a1924e0193cf1046ad72180ee55589",
+    "externalIds": {
+      "MAG": "1659578874",
+      "DOI": "10.1109/IIT.1996.586507",
+      "CorpusId": 58711374
+    },
+    "title": "SiGe and SiGeC surface alloy formation using high dose implantation and solid phase epitaxy",
+    "venue": "Proceedings of 11th International Conference on Ion Implantation Technology",
+    "year": 1996,
+    "citationCount": 2
+  },
+  {
+    "paperId": "4774d2c31bc723724dc58469d6aa0de878006c10",
+    "externalIds": {
+      "MAG": "2739243198",
+      "CorpusId": 115783007
+    },
+    "title": "Implantation C improve the yield of SiGe bipolar",
+    "venue": "",
+    "year": 2002,
+    "citationCount": 0
+  }
+]

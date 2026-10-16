@@ -1,0 +1,17 @@
+{
+ "C_Si_30keV": {
+  "ions_stopped": 19659,
+  "Rp_nm": 105.6,
+  "dRp_nm": 41.9
+ },
+ "C_Si0.8Ge0.2_30keV": {
+  "ions_stopped": 19327,
+  "Rp_nm": 95.7,
+  "dRp_nm": 41.1
+ },
+ "Sn_Ge_30keV": {
+  "ions_stopped": 19981,
+  "Rp_nm": 14.2,
+  "dRp_nm": 6.5
+ }
+}

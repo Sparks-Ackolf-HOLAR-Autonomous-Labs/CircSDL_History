@@ -1,0 +1,146 @@
+[
+  {
+    "paperId": "7e47c0bef5dbf9edeb66a775cedd3a4c7f6c78f3",
+    "externalIds": {
+      "MAG": "2063716776",
+      "DOI": "10.1016/S0168-583X(98)00598-9",
+      "CorpusId": 96538155
+    },
+    "title": "Controlling the density distribution of SiC nanocrystals for the ion beam synthesis of buried SiC layers in silicon",
+    "venue": "",
+    "year": 1999,
+    "citationCount": 21
+  },
+  {
+    "paperId": "e0ee8630574a9788e18a6a33ecac4e38aeb5cbc9",
+    "externalIds": {
+      "MAG": "1972292727",
+      "DOI": "10.1016/S0168-583X(01)00504-3",
+      "CorpusId": 94074497
+    },
+    "title": "Ion beam synthesis of buried SiC layers in silicon: Basic physical processes",
+    "venue": "",
+    "year": 2001,
+    "citationCount": 36
+  },
+  {
+    "paperId": "9e8bd4c2a8e16329cbb153f590394bae1435a518",
+    "externalIds": {
+      "MAG": "2085916346",
+      "DOI": "10.1016/S0168-583X(98)00787-3",
+      "CorpusId": 98532353
+    },
+    "title": "Mechanisms in the ion beam synthesis of SiC layers in silicon",
+    "venue": "",
+    "year": 1999,
+    "citationCount": 23
+  },
+  {
+    "paperId": "22c48aa769c8ac0e7ec3e4158d7a7773281f62b9",
+    "externalIds": {
+      "MAG": "1982353739",
+      "DOI": "10.1088/0022-3727/43/39/395401",
+      "CorpusId": 119514238
+    },
+    "title": "Carbon redistribution in nanometric Si1\u2212xCx layers upon ion beam synthesis of SiC by C implantation into SIMOX(1\u20091\u20091)",
+    "venue": "",
+    "year": 2010,
+    "citationCount": 3
+  },
+  {
+    "paperId": "871523847c505fee3757e436a3eae961f03ef6b2",
+    "externalIds": {
+      "MAG": "2145624614",
+      "DOI": "10.1016/J.NIMB.2011.08.058",
+      "CorpusId": 54770670
+    },
+    "title": "Ion-beam synthesis and photoluminescence of SiC nanocrystals assisted by MeV-heavy-ion-beam annealing",
+    "venue": "",
+    "year": 2012,
+    "citationCount": 6
+  },
+  {
+    "paperId": "73892051549ba9fb698da03d29b85842384a1bf9",
+    "externalIds": {
+      "MAG": "1996649146",
+      "DOI": "10.1016/S0168-583X(98)00669-7",
+      "CorpusId": 95854227
+    },
+    "title": "Ion beam induced crystallization effect and growth kinetics of buried SiC layers formed by carbon implantation into silicon",
+    "venue": "",
+    "year": 1999,
+    "citationCount": 23
+  },
+  {
+    "paperId": "6fc4c2cd7d7cf0014ba194b37e15c1371775e73a",
+    "externalIds": {
+      "MAG": "2329759334",
+      "DOI": "10.1557/PROC-481-407",
+      "CorpusId": 100776011
+    },
+    "title": "Phase Transformation and Ion Beam Induced Crystallization in SiC Layers Formed by Mevva Implantation of Carbon into Silicon",
+    "venue": "",
+    "year": 1997,
+    "citationCount": 0
+  },
+  {
+    "paperId": "1b92f544d29b03082c92149b8ab8415eea31098b",
+    "externalIds": {
+      "MAG": "2327960078",
+      "DOI": "10.1557/PROC-396-877",
+      "CorpusId": 137812593
+    },
+    "title": "MeV ion beam synthesis of well-defined buried 3C-SiC layers in silicon",
+    "venue": "",
+    "year": 1995,
+    "citationCount": 13
+  },
+  {
+    "paperId": "3b70e26593da4ff497f80487802da94c9a3640f3",
+    "externalIds": {
+      "MAG": "2919678467",
+      "DOI": "10.1016/J.NIMB.2019.02.026",
+      "CorpusId": 104384978
+    },
+    "title": "Ion beam synthesis of SiC on Si toward the radiation damage free limit",
+    "venue": "Nuclear Instruments and Methods in Physics Reseach B",
+    "year": 2019,
+    "citationCount": 6
+  },
+  {
+    "paperId": "139f9eca99e2891596dce9720a4e77f15a0d6199",
+    "externalIds": {
+      "MAG": "2567763227",
+      "DOI": "10.1016/S0168-583X(99)01057-5",
+      "CorpusId": 100554652
+    },
+    "title": "Ion beam synthesis of buried oxide layers in silicon carbide",
+    "venue": "",
+    "year": 1999,
+    "citationCount": 9
+  },
+  {
+    "paperId": "5c784e8ee53718ee5e35e145a3b016e67263ccef",
+    "externalIds": {
+      "MAG": "1554356854",
+      "DOI": "10.1002/sia.3816",
+      "CorpusId": 93539477
+    },
+    "title": "Ion\u2010beam synthesis of 3C\u2010SiC surface layers on silicon",
+    "venue": "",
+    "year": 2012,
+    "citationCount": 1
+  },
+  {
+    "paperId": "1f4ce5af6742847571fec608daf4cd911c2765e7",
+    "externalIds": {
+      "MAG": "1639378403",
+      "DOI": "10.12794/metadc68033",
+      "CorpusId": 135505434
+    },
+    "title": "Ion Beam Synthesis of Carbon Assisted Nanosystems in Silicon Based Substrates",
+    "venue": "",
+    "year": 2011,
+    "citationCount": 1
+  }
+]

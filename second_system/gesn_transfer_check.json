@@ -1,0 +1,110 @@
+[
+ {
+  "y_Sn": 0.0,
+  "boundary": "100nm",
+  "eps": 0.0,
+  "kappa": 19.48
+ },
+ {
+  "y_Sn": 0.0,
+  "boundary": "100nm",
+  "eps": 39.0,
+  "kappa": 19.48
+ },
+ {
+  "y_Sn": 0.0,
+  "boundary": "700nm",
+  "eps": 0.0,
+  "kappa": 34.33
+ },
+ {
+  "y_Sn": 0.0,
+  "boundary": "700nm",
+  "eps": 39.0,
+  "kappa": 34.33
+ },
+ {
+  "y_Sn": 0.0,
+  "boundary": "bulk",
+  "eps": 0.0,
+  "kappa": 53.45
+ },
+ {
+  "y_Sn": 0.0,
+  "boundary": "bulk",
+  "eps": 39.0,
+  "kappa": 53.45
+ },
+ {
+  "y_Sn": 0.06,
+  "boundary": "100nm",
+  "eps": 0.0,
+  "kappa": 5.69
+ },
+ {
+  "y_Sn": 0.06,
+  "boundary": "100nm",
+  "eps": 39.0,
+  "kappa": 2.87
+ },
+ {
+  "y_Sn": 0.06,
+  "boundary": "700nm",
+  "eps": 0.0,
+  "kappa": 9.33
+ },
+ {
+  "y_Sn": 0.06,
+  "boundary": "700nm",
+  "eps": 39.0,
+  "kappa": 4.88
+ },
+ {
+  "y_Sn": 0.06,
+  "boundary": "bulk",
+  "eps": 0.0,
+  "kappa": 16.57
+ },
+ {
+  "y_Sn": 0.06,
+  "boundary": "bulk",
+  "eps": 39.0,
+  "kappa": 8.58
+ },
+ {
+  "y_Sn": 0.12,
+  "boundary": "100nm",
+  "eps": 0.0,
+  "kappa": 3.78
+ },
+ {
+  "y_Sn": 0.12,
+  "boundary": "100nm",
+  "eps": 39.0,
+  "kappa": 1.84
+ },
+ {
+  "y_Sn": 0.12,
+  "boundary": "700nm",
+  "eps": 0.0,
+  "kappa": 6.35
+ },
+ {
+  "y_Sn": 0.12,
+  "boundary": "700nm",
+  "eps": 39.0,
+  "kappa": 3.14
+ },
+ {
+  "y_Sn": 0.12,
+  "boundary": "bulk",
+  "eps": 0.0,
+  "kappa": 11.28
+ },
+ {
+  "y_Sn": 0.12,
+  "boundary": "bulk",
+  "eps": 39.0,
+  "kappa": 5.33
+ }
+]

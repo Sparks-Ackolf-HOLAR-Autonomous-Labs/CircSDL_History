@@ -1,0 +1,120 @@
+[
+  {
+    "paperId": "7cdb2bbbd537a8fb80a0346bda2ab5f9918a5f69",
+    "externalIds": {
+      "MAG": "2371416704",
+      "DOI": "10.1063/1.4948960",
+      "CorpusId": 40239623
+    },
+    "title": "Synthesis of Ge1\u2212xSnx alloys by ion implantation and pulsed laser melting: Towards a group IV direct bandgap material",
+    "venue": "",
+    "year": 2016,
+    "citationCount": 28
+  },
+  {
+    "paperId": "cbbdfcf4057dd272196fa3fa3bfc264838c175ef",
+    "externalIds": {
+      "MAG": "2060164548",
+      "DOI": "10.1063/1.4891848",
+      "CorpusId": 121239092
+    },
+    "title": "Ge1\u2212xSnx alloys synthesized by ion implantation and pulsed laser melting",
+    "venue": "",
+    "year": 2014,
+    "citationCount": 23
+  },
+  {
+    "paperId": "2b1d2502fedf83ff27c13d8eea6a5b28c41b6d99",
+    "externalIds": {
+      "DOI": "10.1063/5.0339743",
+      "CorpusId": 291102456
+    },
+    "title": "Dilute Pb in Ge materials fabricated by ion implantation and pulsed laser melting",
+    "venue": "Journal of Applied Physics",
+    "year": 2026,
+    "citationCount": 0
+  },
+  {
+    "paperId": "a29aad48e9535aab1f1a69a519d05bf913685147",
+    "externalIds": {
+      "MAG": "2469108586",
+      "DOI": "10.1007/s11664-012-2011-z",
+      "CorpusId": 99344459
+    },
+    "title": "Synthesis of Ge1\u2212xSnx Alloy Thin Films Using Ion Implantation and Pulsed Laser Melting (II-PLM)",
+    "venue": "Journal of Electronic Materials",
+    "year": 2012,
+    "citationCount": 11
+  },
+  {
+    "paperId": "387ac4dcda2e12ecb06211b90f475c585fe0dd2b",
+    "externalIds": {
+      "ArXiv": "1908.08241",
+      "MAG": "2969376718",
+      "CorpusId": 201309696
+    },
+    "title": "Synthesis of strain-relaxed Ge-Sn alloys using ion implantation and pulsed laser melting",
+    "venue": "",
+    "year": 2019,
+    "citationCount": 0
+  },
+  {
+    "paperId": "60eb6c7f26fdbac63a9ea62cec228ff95a78a1b9",
+    "externalIds": {
+      "DOI": "10.1063/5.0304780",
+      "CorpusId": 284560576
+    },
+    "title": "Hyperdoping SiGe with S using ion implantation and pulsed laser melting for infrared absorption and detection",
+    "venue": "Journal of Applied Physics",
+    "year": 2026,
+    "citationCount": 0
+  },
+  {
+    "paperId": "2ac74232becb05c6b5d1ac19a6ccf4c431ad5981",
+    "externalIds": {
+      "MAG": "2751737035",
+      "DOI": "10.1109/PHOSST.2017.8012621",
+      "CorpusId": 46014256
+    },
+    "title": "Synthesis of Ge-Sn alloys by ion implantation and pulsed laser melting: Towards a group IV direct band gap semiconductor",
+    "venue": "Scalable Uncertainty Management",
+    "year": 2017,
+    "citationCount": 0
+  },
+  {
+    "paperId": "5342064d8545548bd7cca8ee69840938b9eab101",
+    "externalIds": {
+      "MAG": "2765607600",
+      "DOI": "10.25911/5D723C6808107",
+      "CorpusId": 139383728
+    },
+    "title": "Synthesis of Germanium-Tin Alloys by Ion Implantation and Pulsed Laser Melting: Towards a Group IV Direct Band Gap Semiconductor",
+    "venue": "",
+    "year": 2017,
+    "citationCount": 4
+  },
+  {
+    "paperId": "0683c297852cc48609399a0e34a1d7b99fe18999",
+    "externalIds": {
+      "MAG": "2910138132",
+      "DOI": "10.1016/J.NIMB.2018.12.049",
+      "CorpusId": 104319782
+    },
+    "title": "Ferromagnetic (In,Ga,Mn)As films prepared by ion implantation and pulsed laser melting",
+    "venue": "Nuclear Instruments and Methods in Physics Reseach B",
+    "year": 2019,
+    "citationCount": 0
+  },
+  {
+    "paperId": "f206ff43611698e369f2b61cbdc68201a5c8d487",
+    "externalIds": {
+      "MAG": "2054401461",
+      "DOI": "10.1016/J.NIMB.2007.03.033",
+      "CorpusId": 97066241
+    },
+    "title": "Synthesis of highly mismatched alloys using ion implantation and pulsed laser melting",
+    "venue": "",
+    "year": 2007,
+    "citationCount": 9
+  }
+]

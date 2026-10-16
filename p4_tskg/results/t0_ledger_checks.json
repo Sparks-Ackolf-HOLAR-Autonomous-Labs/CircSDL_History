@@ -1,0 +1,63 @@
+{
+ "events_equal_entries": true,
+ "campaign_clock_monotone": true,
+ "all_cited_entries_exist": true,
+ "forward_references": {},
+ "reach_of_ge_corner_registration_19": [
+  19,
+  26,
+  27,
+  28,
+  29,
+  119
+ ],
+ "provenance_of_300K_level_decision_115": [
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  107,
+  111,
+  113,
+  114,
+  115
+ ],
+ "events_with_inputs": 81,
+ "events_with_explicit_inputs": 20,
+ "events_with_only_implicit_inputs": 61,
+ "campaigns": 44,
+ "stats": {
+  "nodes": {
+   "source": 1,
+   "process": 44,
+   "claim": 122
+  },
+  "events": {
+   "campaign:shard_operation": 31,
+   "campaign:preregistration": 25,
+   "campaign:commitment": 4,
+   "campaign:deviation": 9,
+   "campaign:batch_result": 32,
+   "campaign:gate_failure": 6,
+   "campaign:analysis_result": 2,
+   "campaign:restore": 1,
+   "campaign:design": 1,
+   "campaign:commit": 1,
+   "campaign:observation": 2,
+   "campaign:analysis": 8
+  },
+  "max_arity": 12
+ },
+ "reach_19_contains_26_27": true,
+ "provenance_115_contains_107_111_113_114": true
+}

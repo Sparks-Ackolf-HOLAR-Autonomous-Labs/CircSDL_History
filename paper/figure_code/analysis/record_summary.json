@@ -1,0 +1,473 @@
+{
+ "literature_graph": {
+  "nodes": {
+   "source": 24,
+   "state": 49,
+   "process": 163,
+   "claim": 551
+  },
+  "events": {
+   "material:measurement": 551
+  },
+  "max_arity": 4
+ },
+ "md_500K_events": {
+  "events_loaded": 3028,
+  "by_kind": {
+   "vacancy hop": 491,
+   "Sn-V pairing": 1003,
+   "Sn-V separation": 1000,
+   "Sn hop": 534,
+   "range_limit": 5
+  },
+  "reaction_events_balanced": 2537,
+  "sites": 512,
+  "sn_atoms": 61,
+  "vacancies": 2,
+  "snsn_pairs_time_mean": {
+   "gesn_x012_T500_s1": 11.47,
+   "gesn_x012_T500_s2": 14.51
+  },
+  "snsn_pairs_range": {
+   "gesn_x012_T500_s1": [
+    8,
+    14
+   ],
+   "gesn_x012_T500_s2": [
+    13,
+    17
+   ]
+  },
+  "snsn_pairs_random_expectation": 14.32,
+  "sn_next_to_vacancy_time_mean": {
+   "gesn_x012_T500_s1": 4.52,
+   "gesn_x012_T500_s2": 3.81
+  },
+  "sn_next_to_vacancy_random_expectation": 0.95
+ },
+ "excess_energy_last_250ps_meV_per_atom": {
+  "gesn_x012_T500_s1": -0.3,
+  "gesn_x012_T500_s2": -0.9,
+  "gesn_x012_T600_s1": 85.7,
+  "gesn_x012_T600_s2": 84.6,
+  "gesn_x012_T700_s1": 98.7,
+  "gesn_x012_T700_s2": 97.4
+ },
+ "material_clock_graph": {
+  "nodes": {
+   "source": 26,
+   "state": 57,
+   "process": 171,
+   "claim": 557,
+   "species": 3
+  },
+  "events": {
+   "material:measurement": 551,
+   "material:transition": 491,
+   "material:reaction": 2537,
+   "material:range_limit": 5,
+   "material:computation": 1
+  },
+  "max_arity": 6,
+  "total_nodes": 814,
+  "total_events": 3585
+ },
+ "activation_energy_conflict": {
+  "rows": [
+   {
+    "series": "vdd2020_EA_Sn_GeSn_highT_4",
+    "doi": "10.1103/PhysRevMaterials.4.033604",
+    "si_fraction": 0.0,
+    "sn_fraction": 0.06,
+    "state": "metastable film, anneals above about 650 C",
+    "kind": "measured",
+    "Ea_eV": 3.1,
+    "unc_eV": 0.07
+   },
+   {
+    "series": "vdd2020_EA_Sn_SiGeSn_highT_5",
+    "doi": "10.1103/PhysRevMaterials.4.033604",
+    "si_fraction": 0.04,
+    "sn_fraction": 0.065,
+    "state": "metastable film, anneals above about 650 C",
+    "kind": "measured",
+    "Ea_eV": 2.87,
+    "unc_eV": 0.03
+   },
+   {
+    "series": "vdd2020_EA_Sn_GeSn_lowT_6",
+    "doi": "10.1103/PhysRevMaterials.4.033604",
+    "si_fraction": 0.0,
+    "sn_fraction": 0.06,
+    "state": "metastable film, anneals below about 650 C",
+    "kind": "measured",
+    "Ea_eV": 1.81,
+    "unc_eV": 0.09
+   },
+   {
+    "series": "vdd2020_EA_Sn_SiGeSn_lowT_7",
+    "doi": "10.1103/PhysRevMaterials.4.033604",
+    "si_fraction": 0.04,
+    "sn_fraction": 0.065,
+    "state": "metastable film, anneals below about 650 C",
+    "kind": "measured",
+    "Ea_eV": 1.13,
+    "unc_eV": 0.1
+   },
+   {
+    "series": "kringhoj1994_EA_Sn_in_Ge_1",
+    "doi": "10.1063/1.112360",
+    "si_fraction": 0.0,
+    "sn_fraction": null,
+    "state": "implanted bulk crystal",
+    "kind": "measured",
+    "Ea_eV": 3.05,
+    "unc_eV": null
+   },
+   {
+    "series": "kringhoj1994_EA_Sn_in_SiGe_2",
+    "doi": "10.1063/1.112360",
+    "si_fraction": 1.0,
+    "sn_fraction": null,
+    "state": "implanted bulk crystal",
+    "kind": "measured",
+    "Ea_eV": 4.91,
+    "unc_eV": null
+   },
+   {
+    "series": "kringhoj1994_EA_Sn_in_SiGe_3",
+    "doi": "10.1063/1.112360",
+    "si_fraction": 0.79,
+    "sn_fraction": null,
+    "state": "implanted bulk crystal",
+    "kind": "measured",
+    "Ea_eV": 4.61,
+    "unc_eV": null
+   },
+   {
+    "series": "kringhoj1994_EA_Sn_in_SiGe_4",
+    "doi": "10.1063/1.112360",
+    "si_fraction": 0.47,
+    "sn_fraction": null,
+    "state": "implanted bulk crystal",
+    "kind": "measured",
+    "Ea_eV": 3.88,
+    "unc_eV": null
+   },
+   {
+    "series": "tahini2011_EA_SnV_diffusion_DFT_1",
+    "doi": "10.1063/1.3653472",
+    "si_fraction": null,
+    "sn_fraction": null,
+    "state": "computed (DFT, Sn-vacancy pairs in Ge)",
+    "kind": "computed",
+    "Ea_eV": 2.48,
+    "unc_eV": null
+   },
+   {
+    "series": "tahini2011_EA_SnV_diffusion_DFT_1",
+    "doi": "10.1063/1.3653472",
+    "si_fraction": null,
+    "sn_fraction": null,
+    "state": "computed (DFT, Sn-vacancy pairs in Ge)",
+    "kind": "computed",
+    "Ea_eV": 3.65,
+    "unc_eV": null
+   },
+   {
+    "series": "wang2016_EA_GeSnMQW_lowT_1",
+    "doi": "10.1088/0022-3727/49/22/225102",
+    "si_fraction": 0.0,
+    "sn_fraction": 0.1,
+    "state": "metastable film, anneals below about 650 C",
+    "kind": "measured",
+    "Ea_eV": 1.21,
+    "unc_eV": null
+   }
+  ],
+  "ge_rich_measured_span_eV": [
+   1.13,
+   3.1
+  ],
+  "ge_rich_by_state_span_eV": {
+   "metastable film, anneals above about 650 C": [
+    2.87,
+    3.1
+   ],
+   "metastable film, anneals below about 650 C": [
+    1.13,
+    1.81
+   ],
+   "implanted bulk crystal": [
+    3.05,
+    3.05
+   ]
+  },
+  "md_registered_slope_eV": 0.133,
+  "md_500K_one_event_eV": 0.444,
+  "md_500K_observed_hops_eV": 0.279
+ },
+ "sn_diffusivity_film_vs_bulk": {
+  "film": "Ge0.94Sn0.06 (von den Driesch 2020, figure-read)",
+  "D_film_500C_cm2_s": 2.71e-17,
+  "D_bulk_law_500C_cm2_s": 9.1975633738129e-19,
+  "ratio_500C": 29.5,
+  "D_film_400C_extrapolated_Ea_lowT_cm2_s": 4.788966438023568e-19,
+  "D_bulk_law_400C_cm2_s": 1.02372121178594e-21,
+  "ratio_400C": 468,
+  "diffusion_length_film_400C_20min_nm": 0.24,
+  "diffusion_length_bulk_400C_20min_nm": 0.011,
+  "film_measured_400C": "Ge/Ge0.9Sn0.1 MQW (Wang 2016, law fitted over 380-450 C)",
+  "D_wang_400C_cm2_s": 2.531046015461485e-16,
+  "ratio_wang_400C": 247240,
+  "ratio_wang_to_vdd_extrapolated_400C": 528.5,
+  "diffusion_length_wang_400C_20min_nm": 5.51
+ },
+ "segregation_onsets": [
+  {
+   "series": "comrie2016_onsets_6",
+   "doi": "10.1063/1.4964692",
+   "sn_fraction": 0.065,
+   "si_fraction": null,
+   "start": "epitaxial crystalline film",
+   "mode": "isochronal",
+   "hold_s": 1200,
+   "onset_C": 600,
+   "unc_C": null
+  },
+  {
+   "series": "takase2016_onsetseg_8",
+   "doi": "10.1063/1.4973121",
+   "sn_fraction": 0.138,
+   "si_fraction": null,
+   "start": "amorphous film",
+   "mode": "isochronal",
+   "hold_s": 1800,
+   "onset_C": 475,
+   "unc_C": null
+  },
+  {
+   "series": "higashiyama2019_sn_seg_onset_1",
+   "doi": "10.1063/1.5086480",
+   "sn_fraction": 0.116,
+   "si_fraction": null,
+   "start": "amorphous film",
+   "mode": "ramp_in_situ",
+   "hold_s": null,
+   "onset_C": 476,
+   "unc_C": 25
+  },
+  {
+   "series": "higashiyama2019_sn_seg_onset_2",
+   "doi": "10.1063/1.5086480",
+   "sn_fraction": 0.164,
+   "si_fraction": null,
+   "start": "amorphous film",
+   "mode": "ramp_in_situ",
+   "hold_s": null,
+   "onset_C": 375,
+   "unc_C": 25
+  },
+  {
+   "series": "higashiyama2019_sn_seg_onset_3",
+   "doi": "10.1063/1.5086480",
+   "sn_fraction": 0.201,
+   "si_fraction": null,
+   "start": "amorphous film",
+   "mode": "ramp_in_situ",
+   "hold_s": null,
+   "onset_C": 291,
+   "unc_C": 8
+  },
+  {
+   "series": "higashiyama2019_sn_seg_onset_4",
+   "doi": "10.1063/1.5086480",
+   "sn_fraction": 0.217,
+   "si_fraction": null,
+   "start": "amorphous film",
+   "mode": "ramp_in_situ",
+   "hold_s": null,
+   "onset_C": 281,
+   "unc_C": 20
+  },
+  {
+   "series": "higashiyama2019_sn_seg_onset_5",
+   "doi": "10.1063/1.5086480",
+   "sn_fraction": 0.303,
+   "si_fraction": null,
+   "start": "amorphous film",
+   "mode": "ramp_in_situ",
+   "hold_s": null,
+   "onset_C": 165,
+   "unc_C": 15
+  },
+  {
+   "series": "higashiyama2019_sn_seg_onset_6",
+   "doi": "10.1063/1.5086480",
+   "sn_fraction": 0.396,
+   "si_fraction": null,
+   "start": "amorphous film",
+   "mode": "ramp_in_situ",
+   "hold_s": null,
+   "onset_C": 130,
+   "unc_C": 8
+  },
+  {
+   "series": "higashiyama2019_sn_seg_onset_7",
+   "doi": "10.1063/1.5086480",
+   "sn_fraction": 0.409,
+   "si_fraction": null,
+   "start": "amorphous film",
+   "mode": "ramp_in_situ",
+   "hold_s": null,
+   "onset_C": 110,
+   "unc_C": 8
+  },
+  {
+   "series": "jia2020_segonset_10",
+   "doi": "10.1088/1361-6463/abae94",
+   "sn_fraction": 0.08,
+   "si_fraction": null,
+   "start": "epitaxial crystalline film",
+   "mode": "isochronal",
+   "hold_s": 300,
+   "onset_C": 550,
+   "unc_C": 25
+  },
+  {
+   "series": "li2013_thresholds_1",
+   "doi": "10.1063/1.4812490",
+   "sn_fraction": null,
+   "si_fraction": null,
+   "start": "epitaxial crystalline film",
+   "mode": "isochronal",
+   "hold_s": null,
+   "onset_C": 400,
+   "unc_C": null
+  },
+  {
+   "series": "li2013_thresholds_1",
+   "doi": "10.1063/1.4812490",
+   "sn_fraction": null,
+   "si_fraction": null,
+   "start": "epitaxial crystalline film",
+   "mode": "isochronal",
+   "hold_s": null,
+   "onset_C": 440,
+   "unc_C": null
+  },
+  {
+   "series": "li2013_thresholds_1",
+   "doi": "10.1063/1.4812490",
+   "sn_fraction": null,
+   "si_fraction": null,
+   "start": "epitaxial crystalline film",
+   "mode": "isochronal",
+   "hold_s": null,
+   "onset_C": 540,
+   "unc_C": null
+  },
+  {
+   "series": "li2013_thresholds_1",
+   "doi": "10.1063/1.4812490",
+   "sn_fraction": null,
+   "si_fraction": null,
+   "start": "epitaxial crystalline film",
+   "mode": "isochronal",
+   "hold_s": null,
+   "onset_C": 580,
+   "unc_C": null
+  },
+  {
+   "series": "fournierlupien2014_onset_SiGeSn_1",
+   "doi": "10.1149/06406.0903ECST",
+   "sn_fraction": 0.12,
+   "si_fraction": 0.04,
+   "start": "epitaxial crystalline film",
+   "mode": "ramp_in_situ",
+   "hold_s": null,
+   "onset_C": 410,
+   "unc_C": null
+  },
+  {
+   "series": "zhang2017_RTA_onsets_1",
+   "doi": "10.1063/1.5005970",
+   "sn_fraction": 0.0768,
+   "si_fraction": null,
+   "start": "epitaxial crystalline film",
+   "mode": "isochronal",
+   "hold_s": 60,
+   "onset_C": 700,
+   "unc_C": null
+  }
+ ],
+ "insitu_550C": {
+  "attiaoui2026_E2shift_1": {
+   "composition": "Si0.08Ge0.88Sn0.04 on Ge0.97Sn0.03/Ge-VS/Si(100)",
+   "max_shift_meV": 432,
+   "duration_s": 7800,
+   "cap": "uncapped, sample B; in situ SE every 10 s, 70 deg incidence, 0.7-6.0 eV; time referenced to t_ref when sample first reaches 550 C"
+  },
+  "attiaoui2026_E2shift_6": {
+   "composition": "Si0.08Ge0.88Sn0.04 on Ge0.97Sn0.03/Ge-VS/Si(100)",
+   "max_shift_meV": 19,
+   "duration_s": 8280,
+   "cap": "3 nm SiO2 cap (PECVD, 300 C) before anneal, sample C; in situ SE every 10 s, 70 deg incidence, 0.7-6.0 eV; time referenced to t_ref when sample first reaches 550 C"
+  }
+ },
+ "campaign_clock_graph": {
+  "entries": 159,
+  "first_seq": 0,
+  "last_seq": 158,
+  "events": {
+   "campaign:shard_operation": 41,
+   "campaign:preregistration": 28,
+   "campaign:commitment": 9,
+   "campaign:deviation": 10,
+   "campaign:batch_result": 37,
+   "campaign:gate_failure": 6,
+   "campaign:analysis_result": 2,
+   "campaign:restore": 1,
+   "campaign:design": 1,
+   "campaign:commit": 1,
+   "campaign:observation": 2,
+   "campaign:analysis": 14,
+   "campaign:batch_commitment": 5,
+   "campaign:claim": 2
+  },
+  "max_arity": 12,
+  "provenance_of_range_limit_145": [
+   122,
+   123,
+   124,
+   125,
+   126,
+   127,
+   143,
+   144,
+   145
+  ],
+  "reach_of_t1_registration_126": [
+   126,
+   127,
+   131,
+   132,
+   143,
+   144,
+   145,
+   150
+  ],
+  "provenance_of_o1_grade_132": [
+   122,
+   123,
+   124,
+   125,
+   126,
+   128,
+   131,
+   132
+  ],
+  "events_with_explicit_inputs": 49,
+  "campaign_clock_monotone": true
+ }
+}

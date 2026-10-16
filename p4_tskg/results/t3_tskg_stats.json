@@ -1,0 +1,13 @@
+{
+ "nodes": {
+  "source": 24,
+  "state": 49,
+  "process": 163,
+  "claim": 551
+ },
+ "events": {
+  "material:measurement": 551
+ },
+ "max_arity": 4,
+ "series": 163
+}

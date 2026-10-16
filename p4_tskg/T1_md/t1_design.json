@@ -1,0 +1,60 @@
+{
+ "stage": "P4 T1",
+ "registered_before_any_production_output": true,
+ "code": [
+  "p4_tskg/T1_md/md_events.py (version 2)",
+  "p4_tskg/T1_md/o1_binding.py"
+ ],
+ "potential": "MACE-MP-0 medium, checkpoint 20231203mace128L1_epoch199 (CHPC module mace 0.3.16_cu126); float32 for MD, float64 for O1 statics",
+ "cost_basis": "bench/bench_rep4.json: 510 atoms, 78 ms/step on RTX A5500; 0.5 ns = 250k steps, about 5.4 h on A5500",
+ "md_runs": [
+  {
+   "id": "gesn_x012_T500_s1",
+   "args": "--x 0.12 --nvac 2 --T 500 --ps 500 --eq-ps 5 --every 50 --K 4 --rep 4 --seed 1"
+  },
+  {
+   "id": "gesn_x012_T500_s2",
+   "args": "--x 0.12 --nvac 2 --T 500 --ps 500 --eq-ps 5 --every 50 --K 4 --rep 4 --seed 2"
+  },
+  {
+   "id": "gesn_x012_T600_s1",
+   "args": "--x 0.12 --nvac 2 --T 600 --ps 500 --eq-ps 5 --every 50 --K 4 --rep 4 --seed 1"
+  },
+  {
+   "id": "gesn_x012_T600_s2",
+   "args": "--x 0.12 --nvac 2 --T 600 --ps 500 --eq-ps 5 --every 50 --K 4 --rep 4 --seed 2"
+  },
+  {
+   "id": "gesn_x012_T700_s1",
+   "args": "--x 0.12 --nvac 2 --T 700 --ps 500 --eq-ps 5 --every 50 --K 4 --rep 4 --seed 1"
+  },
+  {
+   "id": "gesn_x012_T700_s2",
+   "args": "--x 0.12 --nvac 2 --T 700 --ps 500 --eq-ps 5 --every 50 --K 4 --rep 4 --seed 2"
+  },
+  {
+   "id": "sigesn_si010_x012_T600_s1",
+   "args": "--x 0.12 --si 0.10 --nvac 2 --T 600 --ps 500 --eq-ps 5 --every 50 --K 4 --rep 4 --seed 1"
+  }
+ ],
+ "o1_run": {
+  "id": "o1_x012_rep4",
+  "args": "--x 0.12 --rep 4 --samples 8 --seed 1 --fmax 0.01"
+ },
+ "placement": "notchpeak-gpu-guest, owner-gpu-guest account; grn061 and the DGX are not used; preempted jobs requeue and restart from the start",
+ "rules": {
+  "O1": "E_b = mean over converged samples of E_far - E_near (positive = bound). Category by the brief: > 0.3 eV bound strongly, 0 to 0.3 eV weakly, < 0 unbound. Theorist value counted right if within 0.10 eV or within a log-ratio of 0.3 of E_b. If fewer than 5 of 8 samples converge, O1 stays ungraded.",
+  "O2": "Sn hops are taken from the persistent state (K = 4 snapshots of 50 steps). A hop reversed (B back to A) within 10 ps is cancelled with its partner; the rest are net Sn hops. Rate k(T) = net Sn hops / (runs x production time). If at least two temperatures have 3 or more net Sn hops, Ea is the weighted least-squares Arrhenius slope over those temperatures, category by the brief's ranges, value right if within 0.15 eV. Otherwise Ea is bounded from below by kB*T_max*ln(1e13 s^-1 x total time at T_max x number of Sn atoms next to a vacancy), and only categories whose whole range lies below the bound are marked refuted; O2 is then reported as partly graded.",
+  "vibration_check": "Before any O2 grading, the persistence rule is checked on the runs themselves: the fraction of hops cancelled within 10 ps is reported per temperature; if over 90 % at every temperature the event count is treated as dominated by flicker and stated as such.",
+  "T1_hypothesis": "papers/26 section 3.4: barriers of events seen in MD are compared with the T3 literature activation energies (2.9 to 3.3 eV bulk Ge; 1.1 to 1.8 eV metastable films). The comparison is reported, not used to change any earlier entry."
+ },
+ "disclosed_before_registration": [
+  "smoke_v2_cpu_62atoms_0p4ps.json: 62 atoms, 0.4 ps, 700 K, CPU; code check only (1 vacancy hop seen).",
+  "smoke_o1_cpu_x006_rep2_fmax01.json: O1 code check at x = 0.06, 64-site cell, fmax 0.1, 2 samples, CPU; gave 0.34 eV (dilute 0.31 eV). This differs from the registered quantity in composition, cell size and force tolerance; it was seen by the agent before registration and is disclosed here."
+ ],
+ "deliverables": [
+  "Sn-vacancy binding (O1)",
+  "net Sn hop rates and Ea or its bound (O2)",
+  "defect-event hyperedges loaded into the time-resolved evidence hypergraph (tskg.py)"
+ ]
+}

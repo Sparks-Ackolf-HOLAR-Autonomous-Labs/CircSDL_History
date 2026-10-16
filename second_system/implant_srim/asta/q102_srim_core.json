@@ -1,0 +1,48 @@
+[
+  {
+    "paperId": "bbf10b0782d7eb14f7b0fe16f164231a46937157",
+    "externalIds": {
+      "DOI": "10.3390/coatings13081448",
+      "CorpusId": 261000246
+    },
+    "title": "Energy Distribution of Sputtered Atoms Explored by SRIM (Stopping and Range of Ions in Matter) Simulations",
+    "venue": "Coatings",
+    "year": 2023,
+    "citationCount": 19
+  },
+  {
+    "paperId": "41df0f18d96b1f17d681c69f28e776272472aa56",
+    "externalIds": {
+      "MAG": "2058538770",
+      "DOI": "10.1063/1.3118582",
+      "CorpusId": 121567222
+    },
+    "title": "Damage profile and ion distribution of slow heavy ions in compounds",
+    "venue": "",
+    "year": 2009,
+    "citationCount": 103
+  },
+  {
+    "paperId": "1a4ab641a86751dd5cce85676799f085fe6e2f3f",
+    "externalIds": {
+      "DOI": "10.1002/pssa.202400205",
+      "CorpusId": 271257221
+    },
+    "title": "Ion Implantation\u2010Induced Bandgap Modifications in the ALD TiO2 Thin Films",
+    "venue": "Physica Status Solidi (a)",
+    "year": 2024,
+    "citationCount": 4
+  },
+  {
+    "paperId": "d11bc9409296de86146d2d4506c30b0c81214c9b",
+    "externalIds": {
+      "MAG": "2012905500",
+      "DOI": "10.1016/J.NIMB.2012.02.014",
+      "CorpusId": 95268248
+    },
+    "title": "Damage Profiles and Ion Distribution in Pt-irradiated SiC",
+    "venue": "",
+    "year": 2012,
+    "citationCount": 15
+  }
+]

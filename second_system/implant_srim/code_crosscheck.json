@@ -1,0 +1,44 @@
+{
+ "C_Si_30keV": {
+  "SRIM-2013": {
+   "ions_stopped": 4945,
+   "Rp_nm": 97.3,
+   "dRp_nm": 36.7
+  },
+  "RustBCA": {
+   "ions_stopped": 19659,
+   "Rp_nm": 105.6,
+   "dRp_nm": 41.9
+  },
+  "Rp_diff_pct": 8.5,
+  "dRp_diff_pct": 14.2
+ },
+ "C_Si0.8Ge0.2_30keV": {
+  "SRIM-2013": {
+   "ions_stopped": 4859,
+   "Rp_nm": 89.5,
+   "dRp_nm": 36.5
+  },
+  "RustBCA": {
+   "ions_stopped": 19327,
+   "Rp_nm": 95.7,
+   "dRp_nm": 41.1
+  },
+  "Rp_diff_pct": 6.9,
+  "dRp_diff_pct": 12.6
+ },
+ "Sn_Ge_30keV": {
+  "SRIM-2013": {
+   "ions_stopped": 4996,
+   "Rp_nm": 14.7,
+   "dRp_nm": 6.7
+  },
+  "RustBCA": {
+   "ions_stopped": 19981,
+   "Rp_nm": 14.2,
+   "dRp_nm": 6.5
+  },
+  "Rp_diff_pct": -3.4,
+  "dRp_diff_pct": -3.0
+ }
+}

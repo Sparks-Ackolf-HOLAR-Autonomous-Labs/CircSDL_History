@@ -1,0 +1,38 @@
+[
+  {
+    "paperId": "f01ebe4971a04cb790876bc8ab81443e03be2fc2",
+    "externalIds": {
+      "MAG": "2991390049",
+      "DOI": "10.1016/j.rinp.2019.102835",
+      "CorpusId": 213472314
+    },
+    "title": "On the calculation of atomic displacements using damage energy",
+    "venue": "Results in Physics",
+    "year": 2020,
+    "citationCount": 42
+  },
+  {
+    "paperId": "e7c15e3205ad48dd966a1ad5c9ab5dcfd6cc62ef",
+    "externalIds": {
+      "MAG": "3106639249",
+      "DOI": "10.17725/rensit.2020.12.451",
+      "CorpusId": 229398695
+    },
+    "title": "Using of Stopping and Range of Ions in Matter Code to Study of Radiation Damage in Materials",
+    "venue": "",
+    "year": 2020,
+    "citationCount": 14
+  },
+  {
+    "paperId": "5bbb44f51c94e051ffecba92f79160e1e6e9698a",
+    "externalIds": {
+      "MAG": "2958764349",
+      "DOI": "10.1016/J.COSSMS.2019.06.001",
+      "CorpusId": 199184096
+    },
+    "title": "Predicting damage production in monoatomic and multi-elemental targets using stopping and range of ions in matter code: Challenges and recommendations",
+    "venue": "Current opinion in solid state & materials science",
+    "year": 2019,
+    "citationCount": 208
+  }
+]

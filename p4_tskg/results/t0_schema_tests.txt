@@ -1,0 +1,9 @@
+PASS balanced pair formation accepted
+PASS unbalanced reaction rejected
+PASS Frenkel-type step balances
+PASS one event links a state, three species, a process step and a source (6 members) with its time window
+PASS material window query excludes the campaign clock
+PASS provenance of the annealed value reaches the as-grown state and both sources
+PASS reach of the MD source includes the annealed state, its value and the campaign decision
+PASS unknown clock rejected
+8/8 pass

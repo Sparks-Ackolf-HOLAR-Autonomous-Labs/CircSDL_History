@@ -1,0 +1,106 @@
+[
+  {
+    "paperId": "e83ed42453afbb4ea13c069db2cfc336e247a3ba",
+    "externalIds": {
+      "DBLP": "journals/jossw/DrobnyC21",
+      "DOI": "10.21105/joss.03298",
+      "CorpusId": 237409362
+    },
+    "title": "RustBCA: A High-Performance Binary-Collision-Approximation Code for Ion-Material Interactions",
+    "venue": "Journal of Open Source Software",
+    "year": 2021,
+    "citationCount": 31
+  },
+  {
+    "paperId": "eddc379db69f32309aeb0ee8dfc8b34e0f29c8b2",
+    "externalIds": {
+      "DOI": "10.1016/j.cpc.2026.110377",
+      "CorpusId": 291481772
+    },
+    "title": "BCA_modern: an open-source universal binary collision approximation code for low-energy ion scattering from crystalline surfaces",
+    "venue": "Computer Physics Communications",
+    "year": 2026,
+    "citationCount": 0
+  },
+  {
+    "paperId": "446325880bc7d096b67b8c9ef7d8334ba8eb6947",
+    "externalIds": {
+      "MAG": "2087611498",
+      "DOI": "10.1016/S0257-8972(02)00376-6",
+      "CorpusId": 135584089
+    },
+    "title": "Substrate bias effects in plasma immersion ion implantation assisted deposition from a TiAl cathodic arc",
+    "venue": "",
+    "year": 2002,
+    "citationCount": 17
+  },
+  {
+    "paperId": "6110ead9c453f4b4c6fef6ad21485382494139a0",
+    "externalIds": {
+      "DOI": "10.1088/1402-4896/ad4a9c",
+      "CorpusId": 269818189
+    },
+    "title": "Elastic scattering cross sections and transport of tin ions in extreme ultraviolet lithography sources",
+    "venue": "Physica Scripta",
+    "year": 2024,
+    "citationCount": 4
+  },
+  {
+    "paperId": "c4c895c876e8734962568dac3f3e18ca203acff7",
+    "externalIds": {
+      "MAG": "2100449580",
+      "DOI": "10.1088/1367-2630/16/9/093018",
+      "CorpusId": 122902815
+    },
+    "title": "Implantation and erosion of nitrogen in tungsten",
+    "venue": "",
+    "year": 2014,
+    "citationCount": 43
+  },
+  {
+    "paperId": "5d03aaa5e89634ea506fe544655cf022f371925d",
+    "externalIds": {
+      "DOI": "10.1117/12.2658352",
+      "CorpusId": 258408647
+    },
+    "title": "Scattering cross sections of tin ions with molecular hydrogen",
+    "venue": "Advanced Lithography",
+    "year": 2023,
+    "citationCount": 1
+  },
+  {
+    "paperId": "e7c2a8e23d5f82d4b32ed38e45f7080794c4c405",
+    "externalIds": {
+      "DOI": "10.1109/icops45751.2022.9813258",
+      "CorpusId": 250322223
+    },
+    "title": "Electronic Stopping Power of Ions in Cold Targets and Warm Plasmas",
+    "venue": "International Conference on Plasma Science",
+    "year": 2022,
+    "citationCount": 1
+  },
+  {
+    "paperId": "c71bc4714a47b2811efb84a7ee13356181305f7d",
+    "externalIds": {
+      "MAG": "2539996833",
+      "DOI": "10.1109/IECON.2006.347966",
+      "CorpusId": 32768716
+    },
+    "title": "Modelling of Organic Device Cathode Obtained by Ion Beam Assisted Deposition",
+    "venue": "Annual Conference of the IEEE Industrial Electronics Society",
+    "year": 2006,
+    "citationCount": 0
+  },
+  {
+    "paperId": "7bcb77d2bdd209936b82e4220d1b111b5206ec6b",
+    "externalIds": {
+      "MAG": "2062855117",
+      "DOI": "10.1016/J.NIMB.2004.12.038",
+      "CorpusId": 98177048
+    },
+    "title": "Channeling characterization of defects in silicon: an atomistic approach",
+    "venue": "",
+    "year": 2005,
+    "citationCount": 14
+  }
+]

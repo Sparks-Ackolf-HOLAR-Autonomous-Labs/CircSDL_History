@@ -1,0 +1,112 @@
+{
+ "version": 2,
+ "args": {
+  "x": 0.12,
+  "si": 0.0,
+  "nvac": 2,
+  "T": 700.0,
+  "ps": 0.4,
+  "eq_ps": 0.1,
+  "every": 10,
+  "K": 3,
+  "rep": 2,
+  "seed": 1,
+  "dt_fs": 2.0,
+  "device": "cpu",
+  "dtype": "float64",
+  "model": "medium",
+  "bench": 0,
+  "out": "/tmp/t1v2_smoke.json"
+ },
+ "n_atoms": 62,
+ "n_sn": 8,
+ "n_sites": 64,
+ "a0_mace_A": 5.923802842331144,
+ "a_vegard_A": 5.75772,
+ "scan": [
+  [
+   5.6425656,
+   -4.311242338814614
+  ],
+  [
+   5.7289314,
+   -4.362725844909945
+  ],
+  [
+   5.8152972,
+   -4.39358453680626
+  ],
+  [
+   5.901662999999999,
+   -4.406456737490786
+  ],
+  [
+   5.9880288,
+   -4.403402096495031
+  ]
+ ],
+ "vacancy_sites_start": [
+  48,
+  53
+ ],
+ "prod_ps": 0.4,
+ "eq_ps": 0.1,
+ "counts": {
+  "sn_hops": 0,
+  "vac_hops": 1,
+  "atom_hops": 1
+ },
+ "wall_s": 370.8798222541809,
+ "prod_s_per_step": 1.4689303243160248,
+ "events": [
+  {
+   "t_ps": 0.3,
+   "kind": "transition",
+   "name": "vacancy hop",
+   "from_sites": [
+    48
+   ],
+   "to_sites": [
+    29
+   ]
+  },
+  {
+   "t_ps": 0.3,
+   "kind": "reaction",
+   "name": "Sn-V pairing",
+   "atoms": [
+    56
+   ],
+   "site": 29,
+   "reaction": [
+    [
+     [
+      1,
+      "Sn_Ge"
+     ],
+     [
+      1,
+      "V_Ge"
+     ]
+    ],
+    [
+     [
+      1,
+      "{Sn_Ge,V_Ge}"
+     ]
+    ]
+   ]
+  }
+ ],
+ "series": [
+  {
+   "t_ps": 0.4,
+   "n_vac": 2,
+   "n_snv_pairs": 3,
+   "n_snsn_pairs": 1,
+   "max_disp_A": 1.4308348106821047,
+   "T_K": 669.3048493296322,
+   "epot_eV_atom": -4.313369830451941
+  }
+ ]
+}
